@@ -1,0 +1,40 @@
+
+A.显示效果：
+
+1.界面 正常只显示 译文   TransType.Trans
+
+2.交互提示 显示 双语： 译文、原文    TransType.Mark
+
+3.Log 保存：
+Step、Alarm 保存 译文 + 原文   TransType.Mark
+其他 log 只保存 原文。
+
+
+
+
+
+B. 输出文本的注意点：
+使用双语的文本，要用 .txtTrans(TransType.Mark) 方法。
+
+
+
+以下要用 TransType.Mark
+
+    /// A.提示（界面显示双语）
+    /// 1.MessageMgr.Show()
+    /// 2.StationBase.ShowMsg()
+    /// 
+    /// 
+    /// B.Step、Alarm Log（保存双语log）
+    /// 1.Logger.Step()
+    /// 2.Logger.Alarm()
+    /// 3.EventMgr.Warn()
+    /// 4.EventMgr.Error()
+    /// 5.EventMgr.Fatal‌()
+    /// 6.EventMgr.Alarm‌()
+
+
+
+以下要用 .txtTrans(TransType.Trans)，使用 TransType.Trans 只显示译文：
+    /// 1.UI 只显示译文，想看中文 切语言回去
+    /// 2.Messagebox.Show() 

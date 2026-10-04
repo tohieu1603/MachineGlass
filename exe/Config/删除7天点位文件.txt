@@ -1,0 +1,66 @@
+/// <summary>
+/// 程序启动自动备份Point.xml，自动清理7天以上备份文件
+/// </summary>
+private void BackupPointXmlAndCleanOld()
+{
+    // =====================路径配置=====================
+    string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+    // 原始点位文件
+    string originalPointFile = Path.Combine(baseDir, "Config", "Point.xml");
+    // 固定备份目录 D:\exe\backUpPoints
+    string backupDir = @"D:\exe\backUpPoints";
+    int keepDays = 7;
+    // ==================================================
+
+    try
+    {
+        // 判断源文件是否存在
+        if (!File.Exists(originalPointFile))
+        {
+            Logger.Manual($"点位文件不存在，无需备份：{originalPointFile}");
+            return;
+        }
+
+        // 创建备份文件夹（不存在自动新建）
+        if (!Directory.Exists(backupDir))
+        {
+            Directory.CreateDirectory(backupDir);
+            Logger.Manual($"备份目录不存在，自动创建：{backupDir}");
+        }
+
+        // 备份文件名带时间戳 Point_20260725_152030.xml
+        string timeTag = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+        string backupFileName = $"Point_{timeTag}.xml";
+        string fullBackupPath = Path.Combine(backupDir, backupFileName);
+
+        // 执行备份复制
+        File.Copy(originalPointFile, fullBackupPath, true);
+        Logger.Process(Name, $"点位文件备份成功 → {fullBackupPath}");
+
+        #region 清理超过7天的旧备份
+        DirectoryInfo dirInfo = new DirectoryInfo(backupDir);
+        // 筛选所有Point_开头xml备份
+        var expiredFiles = dirInfo.GetFiles("Point_*.xml")
+                   .Where(f => f.CreationTime < DateTime.Now.AddDays(-keepDays))
+                   .ToList();
+
+        foreach (var file in expiredFiles)
+        {
+            try
+            {
+                file.Delete();
+                Logger.Manual($"过期点位备份已删除：{file.Name}");
+            }
+            catch (Exception exDel)
+            {
+                Logger.Manual($"删除过期文件[{file.Name}]失败：{exDel.Message}");
+            }
+        }
+        #endregion
+    }
+    catch (Exception ex)
+    {
+        Logger.Manual($"Point.xml自动备份异常：{ex.Message}");
+        // 异常只记录日志，不阻塞程序启动
+    }
+}

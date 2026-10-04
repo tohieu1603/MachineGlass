@@ -1,0 +1,1470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AF.Station</name>
+    </assembly>
+    <members>
+        <member name="P:AF.Station.PointInfo.Name">
+            <summary>
+            点位的名称（可选）
+            </summary>
+        </member>
+        <member name="F:AF.Station.PointInfo.dictPos">
+            <summary>
+            使用字典存储各个轴的位置，键是轴号，值是对应的坐标值
+            </summary>
+        </member>
+        <member name="P:AF.Station.PointInfo.Item(System.String)">
+            <summary>
+            通过索引器访问或设置指定轴的坐标值。
+            如果轴不存在，get返回0，set会自动创建该轴。
+            </summary>
+            <param name="nAxisIndex">轴号</param>
+            <returns>对应轴的坐标值，如果不存在则返回0</returns>
+        </member>
+        <member name="P:AF.Station.PointInfo.Positions">
+            <summary>
+            提供所有轴坐标数据的只读视图（防止外部修改）
+            </summary>
+        </member>
+        <member name="M:AF.Station.PointInfo.HasAxis(System.Int32)">
+            <summary>
+            检查指定轴是否存在
+            </summary>
+            <param name="axis">要检查的轴名称</param>
+            <returns>存在返回 true，否则返回 false</returns>
+        </member>
+        <member name="T:AF.Station.ProductBase">
+            <summary>
+            生产数据，根据实际项目修改
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductBase.Result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductBase.SN">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductBase.ShowData">
+            <summary>
+            在主界面列表显示本产品数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductBase.GetValue(System.String)">
+            <summary>
+            根据名称获取字段或者属性值
+            </summary>
+            <param name="strName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.ProductBase.GetType(System.String)">
+            <summary>
+            根据名称获取字段或者属性的类型s
+            </summary>
+            <param name="strName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AF.Station.ProductContainer">
+            <summary>
+            产品容器
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductContainer.Result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductContainer.SN">
+            <summary>
+            SN
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductContainer.Length">
+            <summary>
+            容器大小
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductContainer.Container">
+            <summary>
+            容器，放置Product
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductContainer.Index">
+            <summary>
+            当前穴位
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductContainer.#ctor(System.String)">
+            <summary>
+            容器
+            </summary>
+            <param name="strSN"></param>
+        </member>
+        <member name="T:AF.Station.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:AF.Station.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:AF.Station.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+        <member name="P:AF.Station.Properties.Resources.Carrier">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:AF.Station.Properties.Resources.SpaceBackground">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="F:AF.Station.RotaryTable`1.SpaceChanged">
+            <summary>
+            用于界面显示，数据变化
+            </summary>
+        </member>
+        <member name="M:AF.Station.RotaryTable`1.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:AF.Station.RotaryTable`1.Item(`0)">
+            <summary>
+            获取工位
+            </summary>
+            <param name="enumFixture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.RotaryTable`1.Rotate(System.Boolean)">
+            <summary>
+            转一个工位
+            </summary>
+            <param name="bReverse">反转</param>
+        </member>
+        <member name="M:AF.Station.RotaryTable`1.Reset">
+            <summary>
+            复位
+            </summary>
+        </member>
+        <member name="T:AF.Station.StationBase">
+            <summary>
+            站位
+            </summary>
+        </member>
+        <member name="T:AF.Station.StationBase.SafeException">
+            <summary>
+            站位异常类，表示站位正常退出或因其它站位退出信号退出
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.SafeException.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="P:AF.Station.StationBase.InitEntry">
+            <summary>
+            初始化流程的初始步
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.AutoEntry">
+            <summary>
+            自动流程的初始步
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.StepEntry">
+            <summary>
+            入口步，开始流程
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.StepExit">
+            <summary>
+            出口步，结束流程
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.StepEmpty">
+            <summary>
+            空步，无动作
+            </summary>
+        </member>
+        <member name="T:AF.Station.StationBase.StepChanged">
+            <summary>
+            站位步改变
+            </summary>
+            <param name="strStep"></param>
+        </member>
+        <member name="E:AF.Station.StationBase.StepChangedEvent">
+            <summary>
+            站位步改变事件
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.StepRun(System.String,System.Boolean)">
+            <summary>
+            步运行
+            </summary>
+            <param name="strStep">步名</param>
+            <param name="bInit">是否是初始化步</param>
+            <returns></returns>
+        </member>
+        <member name="P:AF.Station.StationBase.LastState">
+            <summary>
+            上一个站位状态
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.CurrentState">
+            <summary>
+            当前站位状态
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.CurrentStep">
+            <summary>
+            当前站位步
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.arrayDI">
+            <summary>
+            站位DI
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.arrayDO">
+            <summary>
+            站位DO
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.arrayCylinder">
+            <summary>
+            站位气缸
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.arrayAxis">
+            <summary>
+            站位轴
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.lockPointFile">
+            <summary>
+            point.xml文件check线程锁
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.dictPoint">
+            <summary>
+            点位集合
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.strPointFile">
+            <summary>
+            point.xml路径
+            </summary>
+        </member>
+        <member name="E:AF.Station.StationBase.StateChangedEvent">
+            <summary>
+            站位状态改变
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase.stationSpace">
+            <summary>
+            站位空间
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.#ctor(System.String)">
+            <summary>
+            工站基类构造函数
+            </summary>
+            <param name="strName">站位名称</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AF.Station.StationBase.CheckPoint``1" -->
+        <member name="E:AF.Station.StationBase.LoadPointEvent">
+            <summary>
+            加载点位事件
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.LoadPointOK">
+            <summary>
+            加载点位的结果
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.LoadPoint(System.String)">
+            <summary>
+            加载站位下的运动点位,并对point文件进行校验 
+            </summary>
+            <returns></returns>
+            <param name="strPointFile">点位文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationBase.SavePointFile">
+            <summary>
+            保存内存中的点位信息到point.xml文件中
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase._strName">
+            <summary>
+            站位名
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.Name">
+            <summary>
+            站位名属性
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationBase._nIndex">
+            <summary>
+            站位序号
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.Index">
+            <summary>
+            站位序号属性
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationBase.Enable">
+            <summary>
+            站位是否启用
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.Pause">
+            <summary>
+            响应流程暂停的处理，比如流水线在暂停时需要停止
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.OnPause">
+            <summary>
+            响应暂停
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.Resume">
+            <summary>
+            响应流程恢复的处理，比如流水线在恢复时需要继续运行
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.OnResume">
+            <summary>
+            响应流程恢复
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.Preinit">
+            <summary>
+            站位初始化为安全状态,虚函数，重写需要子类继承
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.EmgStop">
+            <summary>
+            站位急停,虚函数，重写需要子类继承
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.OnStop">
+            <summary>
+            响应停止
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.StartAutoThread">
+            <summary>
+            开始自动运行
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.StopAutoThread">
+            <summary>
+            停止运行
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.SwitchState(AF.Common.StationState,System.Boolean)">
+            <summary>
+            站位运行状态切换
+            </summary>
+            <param name="newState">将要切换到的站位状态</param>
+            <param name="logEnable">是否记录日志（默认：false）</param>
+        </member>
+        <member name="M:AF.Station.StationBase.WaitAllReady">
+            <summary>
+            等待各站Ready
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.AutoRun">
+             <summary>
+            站位公共处理步骤
+             </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.WaitBegin">
+            <summary>
+            等待启动
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.Delay(System.Int32,System.Boolean)">
+            <summary>
+            站位流程延时等待,当写流程需要较长时间等待时使用此函数        
+            </summary>
+            <param name="milliseconds">需要等待的时间，以毫秒为单位</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:AF.Station.StationBase.CheckContinue(System.Boolean)">
+            <summary>
+            检查系统当前是否会继续运行
+            </summary>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationBase.ShowMessage(System.String,System.String,System.String[],System.Object[],System.Boolean)">
+            <summary>
+            弹窗提示 人机交互
+            </summary>
+            <param name="strMsg">内容</param>
+            <param name="strTitle">标题</param>
+            <param name="strButton">自定义按钮</param>
+            <param name="nBindDI">绑定按钮的信号，数量和按钮数相同</param>
+            <param name="bBlock">是否卡流程</param>
+            <returns>返回选择的按钮Index</returns>
+        </member>
+        <member name="M:AF.Station.StationBase.WaitTcp(AF.Communicate.TcpClient,System.String@,System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            等待网络回复以某字符串开头和某字符串结尾的字符串数据
+            </summary>
+            <param name="tcplink">TCP对象</param>
+            <param name="strReceive">接收到的数据</param>
+            <param name="strStartWith">开头字符串</param>
+            <param name="strEndWith">结尾字符串</param>
+            <param name="nTimeOutS">超时时间，单位秒 0:系统时间 -1:一直等待 其他:其他时间</param>
+            <param name="bTimeOutReturn">设置为true 超时返回，跳出循环；设置为false 超时不返回，卡在循环里</param>
+            <returns>true:未超时  false:超时</returns>
+        </member>
+        <member name="M:AF.Station.StationBase.AddCarrier">
+            <summary>
+            设备每流入一个载具，调用一下
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.ReduceCarrier">
+            <summary>
+            设备每流出一个载具，调用一下
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationBase.ResetCarrierCounter">
+            <summary>
+            重置机台载具计数
+            </summary>
+        </member>
+        <member name="T:AF.Station.StationMgr">
+            <summary>
+            站位管理类
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationMgr.currentState">
+            <summary>
+            站位当前状态
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationMgr.CommissionButton">
+            <summary>
+            调试按钮
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationMgr.WaitBeginButton">
+            <summary>
+            等待启动按钮
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationMgr.IsPartPause">
+            <summary>
+            是否部分站位暂停
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationMgr.lastState">
+            <summary>
+            记录暂停前的设备状态
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationMgr.listStation">
+            <summary>
+            站位集合
+            </summary>
+        </member>
+        <member name="F:AF.Station.StationMgr.PointFile">
+            <summary>
+            point.xml路径
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.BackupPointFile(System.String,System.String)">
+            <summary>
+            备份点位文件
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.CheckPoint">
+            <summary>
+            检查点位是否加载失败
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.StartButtonPressed">
+            <summary>
+            按下启动按钮
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.AlarmRecord">
+            <summary>
+            报警时记录设备信息
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.Start">
+             <summary>
+            所有站位开始运行，自动模式
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.Stop">
+             <summary>
+            所有站位停止运行，转为手动 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.Resume">
+             <summary>
+            将所有站位由暂停中恢复运行 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.Preinit">
+             <summary>
+            初始化所有站位为安全状态 
+             </summary>
+        </member>
+        <member name="M:AF.Station.StationMgr.EmgStop">
+             <summary>
+            急停所有站位 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.Pause">
+             <summary>
+            暂停所有站位运行 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.ChangeState(AF.Common.StationState)">
+             <summary>
+            站位切换状态同时触发状态变更事件
+             </summary>
+             <param name="NewState"></param>
+        </member>
+        <member name="M:AF.Station.StationMgr.GetStation(System.String)">
+             <summary>
+            根据站位名称获取一个站位类指针 
+             </summary>
+             <param name="strName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:AF.Station.StationMgr.AddStation(AF.Station.StationBase,System.Int32,System.Boolean,System.Windows.Forms.Form[])">
+            <summary>
+            增加站位
+            </summary>
+            <param name="station"></param>
+            <param name="nLogGroupIndex">站位Log分组中的组序号，分组序号0是总控</param>
+            <param name="bManualForm">是否添加站位的手动操作界面，无轴可以不添加（如虚拟站）</param>
+            <param name="formCustom">添加自定义界面</param>
+        </member>
+        <member name="T:AF.Station.ProductConfig">
+            <summary>
+            记录ProductData
+            </summary>
+        </member>
+        <member name="T:AF.Station.ProductConfig.SaveOption">
+            <summary>
+            储存配置的生产数据状态信息
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductConfig.SaveOption.strName">
+            <summary>
+            变量名称
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductConfig.SaveOption.bSave">
+            <summary>
+            是否保存
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductConfig.SaveOption.bShow">
+            <summary>
+            界面是否显示
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductConfig.StoreDataChangedEvent">
+            <summary>
+            生产数据配置改变事件
+            </summary>
+        </member>
+        <member name="F:AF.Station.ProductConfig.ShowProductDataEvent">
+            <summary>
+            界面显示生产数据事件
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductConfig.LoadProductCounter">
+            <summary>
+            加载计数器值
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductConfig.ClearProductCounter">
+            <summary>
+            清空计数器
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductConfig.UpdateProductCounter(System.Boolean)">
+            <summary>
+            更新计数器
+            </summary>
+            <param name="bResult">产品结果</param>
+        </member>
+        <member name="M:AF.Station.ProductConfig.SaveProductCounter">
+            <summary>
+            保存计数器值
+            </summary>
+        </member>
+        <member name="P:AF.Station.ProductConfig.CarrierCount">
+            <summary>
+            获取设备内的载具数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.ProductConfig.AddCarrier">
+            <summary>
+            设备每流入一个载具，调用一下
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductConfig.ReduceCarrier">
+            <summary>
+            设备每流出一个载具，调用一下
+            </summary>
+        </member>
+        <member name="M:AF.Station.ProductConfig.ResetCarrierCounter">
+            <summary>
+            重置机台载具计数
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.g_RetentionDays">
+            <summary>
+            数据存放天数
+            </summary>
+        </member>
+        <member name="P:AF.Station.Statistics.IsAdjust">
+            <summary>
+            是否为调机模式
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.Init``2(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <typeparam name="Material">物料</typeparam>
+            <typeparam name="ThrowReason"></typeparam>
+            <param name="strShiftStartTime"></param>
+        </member>
+        <member name="F:AF.Station.Statistics.g_StandardCT">
+            <summary>
+            标准CT
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.m_dicThrowInfo">
+            <summary>
+            抛料原因
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.m_CurrentShiftStart">
+            <summary>
+            当前班次开始时间
+            </summary>
+        </member>
+        <member name="P:AF.Station.Statistics.ShiftStartTime">
+            <summary>
+            定义班次时间
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.sqliteStatistics">
+            <summary>
+            数据库对象
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.m_dicUphData">
+            <summary>
+            产能数据
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.m_dicThrowData">
+            <summary>
+            抛料数据
+            </summary>
+        </member>
+        <member name="F:AF.Station.Statistics.m_dicRuntimeData">
+            <summary>
+            运行时间数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.Clone``1(``0)">
+            <summary>
+            克隆对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.GetCurrentShiftStart">
+            <summary>
+            获取当前班次
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.GetStandardUPH">
+            <summary>
+            获取标准UPH
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.JudgmentTime(System.DateTime)">
+            <summary>
+            判断当前时间所属的时间段
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.IsNextDay(System.DateTime)">
+            <summary>
+            判断是否为下个班次
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.IsDayShift(System.DateTime)">
+            <summary>
+            是否为白班
+            </summary>
+            <param name="dateTime">指定时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.GetSpecifiedDateShiftStart(System.DateTime)">
+            <summary>
+            获取指定日期班次开始时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.CreateUiDicData``1(System.DateTime)">
+            <summary>
+            创建数据字典
+            </summary>
+            <param name="dtPointedDay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadUphData">
+            <summary>
+            加载产能数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateUphData(System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            更新产能数据 内存-界面-数据库
+            </summary>
+            <param name="curTime"></param>
+            <param name="bIsNormal"></param>
+            <param name="nOkCount"></param>
+            <param name="nNgCount"></param>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateUphDataToDatabase(System.Boolean)">
+            <summary>
+            内存数据更新至数据库
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadUphData(System.DateTime)">
+            <summary>
+            加载指定日期产能统计数据
+            </summary>
+            <param name="dppointedDay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.ResetUphData(System.DateTime)">
+            <summary>
+            重置产能统计字典
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.GetUphData(System.Collections.Generic.Dictionary{System.DateTime,AF.Station.UphData},AF.Station.TypeOfShift)">
+            <summary>
+            获取指定班次的产能数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadThrowData">
+            <summary>
+            加载抛料数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateThrowDataToDatabase(System.Boolean)">
+            <summary>
+            内存数据更新至数据库
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadThrowData(System.DateTime)">
+            <summary>
+            加载指定日期的数据
+            </summary>
+            <param name="dppointedDay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.ResetThrowData(System.DateTime)">
+            <summary>
+            重置抛料统计字典
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateMaterial``1(``0)">
+            <summary>
+            上传物料统计数据，OK物料
+            </summary>
+            <param name="material">物料类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateMaterial``2(``0,``1)">
+            <summary>
+            上传物料统计数据，NG物料
+            </summary>
+            <param name="material">物料类型</param>
+            <param name="throwReason">抛料原因，如果OK 则设置为null</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadRuntimeData">
+            <summary>
+            加载运行时间数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateRuntime(System.Object,System.EventArgs)">
+            <summary>
+            更新运行时间数据 内存-界面
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.UpdateRuntimeDataToDatabase(System.Boolean)">
+            <summary>
+            内存数据更新至数据库
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.LoadRuntimeData(System.DateTime)">
+            <summary>
+            加载指定日期运行时间数据
+            </summary>
+            <param name="dppointedDay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.Statistics.ResetRuntimeData(System.DateTime)">
+            <summary>
+            重置运行时间统计字典
+            </summary>
+        </member>
+        <member name="M:AF.Station.Statistics.GetRuntimeData(System.Collections.Generic.Dictionary{System.DateTime,AF.Station.RuntimeData},AF.Station.TypeOfShift)">
+            <summary>
+            获取指定班次的运行时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:AF.Station.UIDataControl`2.DataChangeEvent">
+             <summary>
+            数据更新事件
+             </summary>
+        </member>
+        <member name="F:AF.Station.UIDataControl`2.m_Dic">
+            <summary>
+            正常数据
+            </summary>
+        </member>
+        <member name="F:AF.Station.UIDataControl`2.m_DicBuffer">
+            <summary>
+            备份数据
+            </summary>
+        </member>
+        <member name="M:AF.Station.UIDataControl`2.DataChange">
+            <summary>
+            数据更新委托
+            </summary>
+        </member>
+        <member name="M:AF.Station.UIDataControl`2.UpdateDataToDatabase(System.Object,System.Func{System.Collections.Generic.Dictionary{`0,`1},System.Boolean},System.Func{System.Collections.Generic.Dictionary{`0,`1},System.Boolean},System.Boolean)">
+            <summary>
+            上传数据库操作
+            </summary>
+            <param name="objLock"></param>
+            <param name="Func_LocalDb"></param>
+            <param name="Func_LineDb"></param>
+            <param name="bUptateAll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.UIDataControl`2.ResetUiDicData(System.DateTime,System.Func{System.DateTime,System.Collections.Generic.Dictionary{`0,`1}})">
+            <summary>
+            重置产能统计字典
+            </summary>
+        </member>
+        <member name="T:AF.Station.TcpCommunicate">
+            <summary>
+            Tcp通讯类
+            </summary>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetCommandList">
+            <summary>
+            获取指令列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:AF.Station.TcpCommunicate.nCmdParamCount">
+            <summary>
+            参数数量
+            </summary>
+        </member>
+        <member name="P:AF.Station.TcpCommunicate.CmdSend">
+            <summary>
+            指令
+            </summary>
+        </member>
+        <member name="F:AF.Station.TcpCommunicate.strCmdHead">
+            <summary>
+            指令头
+            </summary>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetRcvString(System.UInt16)">
+            <summary>
+            获取接受的字符串
+            </summary>
+            <param name="nIdx">分隔索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetRcvBit(System.UInt16)">
+            <summary>
+            获取接受的布尔型数据
+            </summary>
+            <param name="nIdx">分隔索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetRcvInt(System.UInt16)">
+            <summary>
+            获取接受的整型数据
+            </summary>
+            <param name="nIdx">分隔索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetRcvDouble(System.UInt16)">
+            <summary>
+            获取接受的浮点型数据
+            </summary>
+            <param name="nIdx">分隔索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            Tcp通讯构造函数
+            </summary>
+            <param name="nCmdParamCount">命令参数个数  -1不自动补0</param>
+            <param name="bCheckRcv">检查接收到的是不是与 命令匹配</param>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.AnalyzeRcvString(System.Object)">
+            <summary>
+            解析数据
+            </summary>
+            <param name="nCmdIdx"></param>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.Communicate(System.Object,System.String@,System.Object[])">
+            <summary>
+            通讯交互：发 + 收
+            </summary>
+            <param name="nCmdIdx">指令</param>
+            <param name="recvStr">返回的原始数据</param>
+            <param name="param">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.SendCommand(System.Object,System.Object[])">
+            <summary>
+            发送数据
+            </summary>
+            <param name="nCmdIdx">指令</param>
+            <param name="param">参数</param>
+            <remarks>
+            仅发送，不接收数据
+            </remarks> 
+        </member>
+        <member name="M:AF.Station.TcpCommunicate.WaitReply(System.Object,System.String@)">
+            <summary>
+            接收并解析数据
+            </summary>
+            <param name="nCmdIdx">指令</param>
+            <param name="orgRecv">返回的原始数据</param>
+            <returns></returns>
+        </member>
+        <member name="F:AF.Station.UI.Form_StationSpace.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_StationSpace_Station.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace_Station.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace_Station.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_StationSpace_StationContainer.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace_StationContainer.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_StationSpace_StationContainer.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Manual_Station_AxisBind.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual_Station_AxisBind.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual_Station_AxisBind.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data.AddPage(System.Windows.Forms.Form[])">
+            <summary>
+            添加自定义TabPage
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data.tabControl_Setting_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            tabPage点击选择事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_RunTime.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_RunTime.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_RunTime.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_Throw.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_Throw.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_Throw.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_ThrowChart.m_bIsNormal">
+            <summary>
+            是否为正常模式
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_ThrowChart.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowChart.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowChart.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_ThrowCollect.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowCollect.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowCollect.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_ThrowList.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowList.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_ThrowList.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Data_UPH.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_UPH.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Data_UPH.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Setting_Event.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_Event.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_Event.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_SystemVariable.Init">
+            <summary>
+            系统变量初始化
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Setting_SystemVariable.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_SystemVariable.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_SystemVariable.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Setting_FileMonitor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_FileMonitor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_FileMonitor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual.AddPage(System.Windows.Forms.Form[])">
+            <summary>
+            添加自定义TabPage
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="F:AF.Station.UI.Form_Manual.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Setting_ProductData.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_ProductData.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting_ProductData.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual_Station.SetPermission">
+            <summary>
+            设置Control权限
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.Form_Manual_Station.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual_Station.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Manual_Station.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting.AddPage(System.Windows.Forms.Form[])">
+            <summary>
+            添加自定义TabPage
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting.AddPage(System.Windows.Forms.Form,System.String)">
+            <summary>
+            在tab控件中增加一个tabPage选项卡,并把一个窗体添加进选项卡
+            </summary>
+            <param name="frm">窗体对象(一个工站界面)</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting.tabControl_Setting_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            tabPage点击选择事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:AF.Station.UI.Form_Setting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Station.UI.Form_Setting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup.AddPage(System.Windows.Forms.UserControl)">
+            <summary>
+            在tab控件中增加一个tabPage选项卡,并把一个窗体添加进选项卡
+            </summary>
+            <param name="uc">窗体对象</param>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup.AddPage(System.Windows.Forms.Form)">
+            <summary>
+            在tab控件中增加一个tabPage选项卡,并把一个窗体添加进选项卡
+            </summary>
+            <param name="frm">窗体对象</param>
+        </member>
+        <member name="F:AF.Station.UI.LogGroup.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.LogGroup_Monitor.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup_Monitor.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup_Monitor.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AF.Station.UI.LogGroup_StepView.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup_StepView.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AF.Station.UI.LogGroup_StepView.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationSpace.#ctor(System.String)">
+            <summary>
+            容器
+            </summary>
+            <param name="strStationName"></param>
+        </member>
+        <member name="M:AF.Station.StationSpace.Add(System.String,System.Object)">
+            <summary>
+            添加容器
+            </summary>
+            <param name="strName"></param>
+            <param name="obj"></param>
+        </member>
+        <member name="M:AF.Station.StationSpace.Save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:AF.Station.StationSpace.Load``1">
+            <summary>
+            加载
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:AF.Station.StationSpace.SpaceChangedHandler">
+            <summary>
+            容器内容变化
+            </summary>
+            <param name="strStation"></param>
+            <param name="strSpace"></param>
+            <param name="obj"></param>
+        </member>
+        <member name="E:AF.Station.StationSpace.SpaceChanged">
+            <summary>
+            容器内容变化
+            </summary>
+        </member>
+        <member name="P:AF.Station.StationSpace.Item(System.Int32)">
+            <summary>
+            Space访问器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

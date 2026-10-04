@@ -1,0 +1,1126 @@
+E:\Projects\git new\release\autoframe_release\exe\AutoFrame.exe.config
+E:\Projects\git new\release\autoframe_release\exe\AutoFrame.xml
+E:\Projects\git new\release\autoframe_release\exe\AutoFrame.exe
+E:\Projects\git new\release\autoframe_release\exe\AutoFrame.pdb
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\AutoFrame.exe
+E:\Projects\git new\release\autoframe_release\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.pdb
+E:\水晶光电AOI程序0716\exe\AutoFrame.exe.config
+E:\水晶光电AOI程序0716\exe\AutoFrame.xml
+E:\水晶光电AOI程序0716\exe\AutoFrame.exe
+E:\水晶光电AOI程序0716\exe\AutoFrame.pdb
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe
+E:\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0716\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0716\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0716\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0716\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.pdb
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\exe\AutoFrame.exe.config
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\exe\AutoFrame.xml
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\exe\AutoFrame.exe
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\exe\AutoFrame.pdb
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe.config
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe
+C:\Users\sun\Desktop\滤光片AOI\上位机程序\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0721\水晶光电AOI程序0716\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0721_\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0721_\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0721_\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0721_\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\exe\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\exe\AutoFrame.xml
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\exe\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\exe\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0721_\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\exe\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\exe\AutoFrame.xml
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\exe\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\exe\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0722(2)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0722(3)\水晶光电AOI程序0722\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0723\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0723\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0723\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0723\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0723\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0725\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0725\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0725\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0725\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0725\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0727\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0727\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0727\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0727-1311\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727-1311\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0727-1311\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727-1311\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727-1311\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0727-1545\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727-1545\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0727-1545\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727-1545\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0727-1545\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0728\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0728\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0728\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0728\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0728\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0729\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0729\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0729\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0729\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.pdb
+E:\Projects\git new\release\水晶光电AOI程序0729\exe\AutoFrame.exe.config
+E:\Projects\git new\release\水晶光电AOI程序0729\exe\AutoFrame.xml
+E:\Projects\git new\release\水晶光电AOI程序0729\exe\AutoFrame.exe
+E:\Projects\git new\release\水晶光电AOI程序0729\exe\AutoFrame.pdb
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.exe
+E:\Projects\git new\release\水晶光电AOI程序0729\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0731\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0731\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0731\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0731\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.pdb
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.exe
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\AutoFrame.pdb
+E:\Projects\git new\release\水晶光电AOI程序0731\exe\AutoFrame.exe.config
+E:\Projects\git new\release\水晶光电AOI程序0731\exe\AutoFrame.xml
+E:\Projects\git new\release\水晶光电AOI程序0731\exe\AutoFrame.exe
+E:\Projects\git new\release\水晶光电AOI程序0731\exe\AutoFrame.pdb
+E:\Projects\git new\release\水晶光电AOI程序0731\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0731 - 2\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0731 - 2\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0731 - 2\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0731 - 2\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0731 - 2\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0806\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0822 - 11\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0822 - 11\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0822 - 11\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0822 - 11\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0822 - 11\Autoframe\obj\Debug\AutoFrame.pdb
+C:\Users\Public\program\水晶光电AOI程序0823\exe\AutoFrame.exe.config
+C:\Users\Public\program\水晶光电AOI程序0823\exe\AutoFrame.xml
+C:\Users\Public\program\水晶光电AOI程序0823\exe\AutoFrame.exe
+C:\Users\Public\program\水晶光电AOI程序0823\exe\AutoFrame.pdb
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.exe.config
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.exe
+C:\Users\Public\program\水晶光电AOI程序0823\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0824\Autoframe\obj\Debug\AutoFrame.pdb
+C:\Users\Public\program\水晶光电AOI程序0825\exe\AutoFrame.exe.config
+C:\Users\Public\program\水晶光电AOI程序0825\exe\AutoFrame.xml
+C:\Users\Public\program\水晶光电AOI程序0825\exe\AutoFrame.exe
+C:\Users\Public\program\水晶光电AOI程序0825\exe\AutoFrame.pdb
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.exe.config
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.exe
+C:\Users\Public\program\水晶光电AOI程序0825\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0826\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0826\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0826\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0826\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0826\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0829\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0829\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0829\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0829\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0829\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0830\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0830\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0830\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0830\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0830\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0831\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0831\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0831\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0831\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0831\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0901\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0901\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0901\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0901\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0901\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0905\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0905\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0905\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0905\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0905\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0905 -2\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0905 -2\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0905 -2\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0905 -2\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0905 -2\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0906\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0906\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0906\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0906\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0906\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0907\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0907\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0907\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0907\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0907\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0908\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0908\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0908\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0908\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0908\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0909\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0909\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0909\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0909\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0909\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0910\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0910\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0910\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0910\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0910\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0911\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0911\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0911\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0911\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0911\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\exe\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\exe\AutoFrame.xml
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\exe\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\exe\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0913\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.csprojAssemblyReference.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\exe\AutoFrame.exe.config
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\exe\AutoFrame.xml
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\exe\AutoFrame.exe
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\exe\AutoFrame.pdb
+D:\Users\Joseph\Desktop\水晶光电AOI程序0915\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\exe\AutoFrame.exe.config
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\exe\AutoFrame.xml
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\exe\AutoFrame.exe
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\exe\AutoFrame.pdb
+D:\汪震\项目\2026\COT 滤光片AOI\Program\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.Up2Date
+E:\programe\水晶光电AOI程序0917\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0917\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0917\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0917\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0917\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0919\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0919\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0919\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0919\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0919\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0922\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0922\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0922\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0922\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0922\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0923\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0923\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0923\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0923\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0923\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0924\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0924\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0924\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0924\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0924\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0925\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0925\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0925\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0925\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0925\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0927\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0927\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0927\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0927\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0927\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0928\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0928\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0928\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0928\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0928\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0929\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0929\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0929\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0929\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\新建文件夹\水晶光电AOI程序0929\exe\AutoFrame.exe.config
+D:\新建文件夹\水晶光电AOI程序0929\exe\AutoFrame.xml
+D:\新建文件夹\水晶光电AOI程序0929\exe\AutoFrame.exe
+D:\新建文件夹\水晶光电AOI程序0929\exe\AutoFrame.pdb
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.exe.config
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.exe
+D:\新建文件夹\水晶光电AOI程序0929\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0930\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0930\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序0930\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序0930\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序0930\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序1001\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序1001\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序1001\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序1001\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序1001\Autoframe\obj\Debug\AutoFrame.pdb
+E:\programe\水晶光电AOI程序1002\exe\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序1002\exe\AutoFrame.xml
+E:\programe\水晶光电AOI程序1002\exe\AutoFrame.exe
+E:\programe\水晶光电AOI程序1002\exe\AutoFrame.pdb
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.csproj.AssemblyReference.cache
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.csproj.SuggestedBindingRedirects.cache
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.exe.config
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.Form_MqttClient.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.Form_MQTT_Control.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_Auto.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_Auto_CustomPanel.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_Main.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.Properties.Resources.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_MesTest2.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_RingMonitor.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.UI.Form_Test.resources
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.csproj.GenerateResource.cache
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.csproj.CoreCompileInputs.cache
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\Autoframe.csproj.CopyComplete
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.exe
+E:\programe\水晶光电AOI程序1002\Autoframe\obj\Debug\AutoFrame.pdb

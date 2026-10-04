@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AF.CardEx</name>
+    </assembly>
+    <members>
+        <member name="T:AF.CardEx.ServoAlarm_Inovance">
+            <summary>
+            汇川伺服报警码
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.ServoAlarm_Inovance.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:AF.CardEx.ServoAlarm_Inovance.AlarmCode">
+            <summary>
+            获取报警码
+            </summary>
+        </member>
+        <member name="T:AF.CardEx.ServoAlarm_Servotronix">
+            <summary>
+            高创伺服报警码
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.ServoAlarm_Servotronix.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:AF.CardEx.ServoAlarm_Servotronix.AlarmCode">
+            <summary>
+            获取报警码
+            </summary>
+        </member>
+        <member name="T:AF.CardEx.ServoAlarm_Patni">
+            <summary>
+            帕特尼伺服报警码
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.ServoAlarm_Patni.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:AF.CardEx.ServoAlarm_Patni.AlarmCode">
+            <summary>
+            获取报警码
+            </summary>
+        </member>
+        <member name="T:AF.CardEx.Card_TrioEcat">
+            <summary>
+            汇川EtherCAT运动控制卡封装,类名必须以"Card_"前导，否则加载不到
+            </summary>
+            <remarks>
+            总线卡
+            </remarks>
+        </member>
+        <member name="F:AF.CardEx.Card_TrioEcat.IpAddress">
+            <summary>
+            TRIO控制器IP
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadCfgFromXml_(System.String)">
+            <summary>
+            获取Trio配置IO组数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            构造函数：板卡类应该只初始化一次
+            </summary>
+            <param name="nCardTotalIndex"></param>
+            <param name="nCardIndex"></param>
+            <param name="strName"></param>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.Load">
+            <summary>
+            加载卡,TRIO复位控制器功能=此处加载卡的功能，包括重启总线的，一般操作在Trio中操作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.Init(System.Collections.Generic.List{AF.Card.DiHandle},System.Collections.Generic.List{AF.Card.DoHandle})">
+            <summary>
+            控制卡初始化
+            </summary>
+            <param name="listDI">配置的输入IO集合</param>
+            <param name="listDO">配置的输出IO集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.DeInit">
+            <summary>
+            关闭控制卡
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetPDO(System.Int16,AF.Card.PdoData)">
+            <summary>
+            根据EtherCAT站号，写EtherCAT从站的PDO数据
+            </summary>
+            <param name="nEcatID"></param>
+            <param name="pdo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetPDO(System.Int16,AF.Card.PdoData@)">
+            <summary>
+            根据EtherCAT站号，读EtherCAT从站的PDO数据
+            </summary>
+            <param name="nEcatID"></param>
+            <param name="pdo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetSDO(System.Int16,AF.Card.SdoData)">
+            <summary>
+            根据EtherCAT站号，写EtherCAT从站的SDO数据
+            </summary>
+            <param name="nEcatID"></param>
+            <param name="sdo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetSDO(System.Int16,AF.Card.SdoData@)">
+            <summary>
+            根据EtherCAT站号写EtherCAT从站的SDO数据
+            </summary>
+            <param name="nEcatID"></param>
+            <param name="sdo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetEcatIndex(System.Int32,System.Int16@)">
+            <summary>
+            根据轴号，获取 Ethcat 从站号
+            </summary>
+            <param name="nSlaveIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ServoOn(System.Int32)">
+            <summary>
+            给予使能
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ServoOff(System.Int32)">
+            <summary>
+            断开使能
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsServoOn(System.Int32)">
+            <summary>
+            读取伺服使能状态
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetHomeMode(System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            设置回原模式
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="nMode"></param>
+            <param name="vm"></param>
+            <param name="vo"></param>
+            <param name="acc"></param>
+            <param name="dec"></param>
+            <param name="offset"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.Home(System.Int32,System.Int32)">
+            <summary>
+            回原点
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nMode">回原点参数, 对于8254，此参数代表回原点的方向</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.Home(System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            回原点
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nMode">模式</param>
+            <param name="vm">最大速度</param>
+            <param name="vo">最小速度</param>
+            <param name="acc">加速时间</param>
+            <param name="dec">减速时间</param>
+            <param name="offset">原点偏移</param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PositionAlign(System.Int32)">
+            <summary>
+            位置对齐
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="nMode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ExitHomeMode(System.Int32)">
+            <summary>
+            退出回原模式
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="nMode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.AbsMove(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            以绝对位置移动
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nPos">位置</param>
+            <param name="nSpeed">速度</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.AbsMove(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            以绝对位置移动
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="fPos">位置</param>
+            <param name="vm">速度</param>
+            <param name="acc">加速时间</param>
+            <param name="dec">减速时间</param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac">速度规划类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.AbsLinearMove(System.Int32[]@,System.Double[]@,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            以当前位置为起始点进行多轴直线插补
+            </summary>
+            <param name="nAxisArray">轴号数组</param>
+            <param name="nPosArray">目标位置</param>
+            <param name="vm">速度</param>
+            <param name="acc">加速时间</param>
+            <param name="dec">减速时间</param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.RelativeLinearMove(System.Int32[]@,System.Double[]@,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            以当前位置为起始点进行多轴直线插补
+            </summary>
+            <param name="nAxisArray"></param>
+            <param name="fPosOffsetArray"></param>
+            <param name="vm"></param>
+            <param name="acc"></param>
+            <param name="dec"></param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.AbsArcMove(System.Int32[]@,System.Double[]@,System.Double[]@,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            以当前点为起点做圆弧插补运动
+            </summary>
+            <param name="nAxisArray"></param>
+            <param name="fCenterArray"></param>
+            <param name="fEndArray"></param>
+            <param name="Dir"></param>
+            <param name="vm"></param>
+            <param name="acc"></param>
+            <param name="dec"></param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.RelativeArcMove(System.Int32[]@,System.Double[]@,System.Double[]@,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            以当前点为起点做相对圆弧插补运动
+            </summary>
+            <param name="nAxisArray"></param>
+            <param name="fCenterOffsetArray"></param>
+            <param name="fEndArray"></param>
+            <param name="Dir"></param>
+            <param name="vm"></param>
+            <param name="acc"></param>
+            <param name="dec"></param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.InitMultMove(System.Int32,System.Int32[],System.Double,System.Double)">
+            <summary>
+            初始化多轴插补运动
+            </summary>
+            <param name="nMtSysNo"></param>
+            <param name="nAxisArray"></param>
+            <param name="vm"></param>
+            <param name="acc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.RelativeMove(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            相对位置移动
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nPos">位置</param>
+            <param name="nSpeed">速度</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.RelativeMove(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            相对位置移动
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="fOffset">相对位置</param>
+            <param name="vm">速度</param>
+            <param name="acc">加速时间</param>
+            <param name="dec">减速时间</param>
+            <param name="vs"></param>
+            <param name="ve"></param>
+            <param name="sFac"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.JogMove(System.Int32,System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            JOG运动
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="bPositive">方向</param>
+            <param name="bStart">开始标志</param>
+            <param name="nSpeed">速度</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.StopAxis(System.Int32)">
+            <summary>
+            轴正常停止
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.StopEmg(System.Int32)">
+            <summary>
+            急停
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetAxisDI(System.Int32)">
+            <summary>
+            获取轴卡运动IO信号
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ResetAlarm(System.Int32)">
+            <summary>
+            清除错误报警
+            </summary>
+            <param name="nAxisNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetPos(System.Int32)">
+            <summary>
+            获取轴的当前位置
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsStop(System.Int32)">
+            <summary>
+            轴是否正常停止
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns>0:正常停止, -1:未到位 其它:急停,报警等</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsInPos(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            判断轴是否到位（使用传入的目标点位）
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nTarget">目标点位</param>
+            <param name="nInPosError">到位误差</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetPosZero(System.Int32)">
+            <summary>
+            位置清零
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetAxisParam(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            设置单轴的某一运动参数
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nParam">参数:1:回原加速度 2:回原最低速度 3:回原最低速度 4:回原最大速度 5:平滑时间(固高卡S曲线) 其它：自定义扩展</param>
+            <param name="nData">参数值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetAxisParam(System.Int32,System.Int32,System.Double)">
+            <summary>
+            设置单轴的某一运动参数(浮点)
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <param name="nParam">参数:1:加速度 2:减速度 3:起跳速度 4:结束速度(凌华卡) 5:平滑时间(固高卡S曲线) 其它：自定义扩展</param>
+            <param name="nData">参数值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.VelocityMove(System.Int32,System.Double)">
+            <summary>
+            速度模式旋转轴
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="dSpeed"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsHomeStop(System.Int32)">
+             <summary>
+            回原是否正常停止
+             </summary>
+             <param name="nAxisNo"></param>
+             <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsHomeMode(System.Int32)">
+            <summary>
+            是否处于回原点模式
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns>1：处于回原点模式；其他：不是</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsMultMoveStop(System.Int32)">
+            <summary>
+            插补运动是否停止
+            </summary>
+            <param name="nMtSysNo">坐标系号</param>
+            <returns>0：停止  -1：未完成</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsMultMoveMode(System.Int32)">
+            <summary>
+            是否处于多轴插补运动模式
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns>1：多轴插补运动模式；其他：不是</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsImmediateMoveMode(System.Int32)">
+            <summary>
+            是否处于多轴插补运动模式
+            </summary>
+            <param name="nAxisNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ConfigPointTable(System.Int32,System.Int32[]@,System.Boolean)">
+            <summary>
+            配置连续插补运动，最多只支持三轴
+            </summary>
+            <param name="crdNo">坐标系</param>
+            <param name="nAxisArray">参与插补运动的轴</param>
+            <param name="bAbsolute">true:绝对位置模式，　false:相对位置模式</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PointTable_Line_Move(System.Int32,System.Double[]@,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            连续直线插补运动
+            </summary>
+            <param name="crdNo">坐标系</param>
+            <param name="positionArray">运动点位</param>
+            <param name="acc">加速度</param>
+            <param name="dec">减速度</param>
+            <param name="vs">开始速度</param>
+            <param name="vm">运行速度</param>
+            <param name="ve">结束速度</param>
+            <param name="sf">平滑系数</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PointTable_IO(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            插补缓冲区输出DO,在插入位置之后插入
+            </summary>
+            <param name="crdNo">坐标系号</param>
+            <param name="nChannel">输出DO的端口号</param>
+            <param name="bOn">输出DO的电平，0低电平，1 高电平</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PointTable_IsIdle(System.Int32)">
+            <summary>
+            确定连续运动列表的BUFF是否可以插入新的运动 
+            </summary>
+            <param name="crdNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PointTable_Start(System.Int32,System.Boolean)">
+            <summary>
+            启动或停止一个连续运动
+            </summary>
+            <param name="crdNo"></param>
+            <param name="bStart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.PointTable_IsStop(System.Int32)">
+            <summary>
+            插补运动是否停止
+            </summary>
+            <param name="crdNo"></param>
+            <returns>0 - 表示停止; -1 - 未停止</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IsCrdMode(System.Int32)">
+            <summary>
+            是否处于多轴插补运动模式
+            </summary>
+            <param name="nAxisNo">轴号</param>
+            <returns>1：多轴插补运动模式；其他：不是</returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetSPELEnable(System.Int32,System.Boolean)">
+            <summary>
+            启用软件正限位
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="bEnable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetSMELEnable(System.Int32,System.Boolean)">
+            <summary>
+            启用软件负限位
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="bEnable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetSPELPos(System.Int32,System.Double)">
+            <summary>
+            设置软件正限位位置
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetSMELPos(System.Int32,System.Double)">
+            <summary>
+            设置软件负限位位置
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetCardInfo">
+            <summary>
+            获取板卡固件信息
+            </summary>
+            <param name="nAxisNo"></param>
+            <param name="pos"></param>
+            <returns></returns>
+        </member>
+        <member name="F:AF.CardEx.Card_TrioEcat.tIOStatusRead">
+            <summary>
+            IO读取线程
+            </summary>
+        </member>
+        <member name="F:AF.CardEx.Card_TrioEcat.m_nDiGrpCnt">
+            <summary>
+            DI组的数量，汇川的IO以8个为一组
+            </summary>
+        </member>
+        <member name="F:AF.CardEx.Card_TrioEcat.m_nDoGrpCnt">
+            <summary>
+            DO组的数量，汇川的IO以8个为一组
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadAllDI">
+            <summary>
+            获取所有输入信号(一次性读取)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadAllDO">
+            <summary>
+            获取所有输出信号(一次性读取)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.IOScanningThread">
+            <summary>
+            开启IO读取线程
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadAllIOData">
+            <summary>
+            开启新线程，只扫描IO 状态
+            </summary>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetDI(System.Int32)">
+            <summary>
+            获取输入信号
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetDO(System.Int32)">
+            <summary>
+            获取输出信号
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.WriteDO(System.Int32,System.Boolean)">
+            <summary>
+            输出信号
+            </summary>
+            <param name="nIndex">输出点序号</param>
+            <param name="bBit">输出值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadDI(System.Int32)">
+            <summary>
+            获取输入信号 API
+            </summary>
+            <param name="nIndex">输入信号序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadDO(System.Int32)">
+            <summary>
+            获取输出信号 API
+            </summary>
+            <param name="nIndex">输出信号序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.GetVr(System.Int32,System.Double@)">
+            <summary>
+            获取VR  nano：0-16384   664X：0-65535
+            </summary>
+            <param name="Variable"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetVr(System.Int32,System.Double)">
+            <summary>
+            写VR  nano：0-16384   664X：0-65535
+            </summary>
+            <param name="Variable"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.SetTable(System.Int32,System.Double[])">
+            <summary>
+            写table 512000个
+            </summary>
+            <param name="StartPosition"></param>
+            <param name="Values"></param>
+        </member>
+        <member name="M:AF.CardEx.Card_TrioEcat.ReadAI(System.Int16,System.Int16@)">
+            <summary>
+            获取模拟量输入值
+            </summary>
+            <param name="nIndex">通道号</param>
+            <param name="nValue">模拟量值</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

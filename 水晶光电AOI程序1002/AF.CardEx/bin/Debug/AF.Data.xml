@@ -1,0 +1,961 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AF.Data</name>
+    </assembly>
+    <members>
+        <member name="F:AF.Data.DataGroup.m_dictDataGroup">
+            <summary>
+            数据组
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.m_strDescribe">
+            <summary>
+            数据项
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.DataChangedHandler">
+            <summary>
+            数据改变委托
+            </summary>
+            <param name="strGroup"></param>
+            <param name="strData"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="E:AF.Data.DataGroup.StandardValueChangedEvent">
+            <summary>
+            标准值改变事件
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.OffsetValueChangedEvent">
+            <summary>
+            补偿值改变事件
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.LimitUValueChangedEvent">
+            <summary>
+            上限改变事件
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.LimitLValueChangedEvent">
+            <summary>
+            下限改变事件
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.DataShowChangeHander">
+            <summary>
+            显示数据改变委托
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.DataShowChangeEvent">
+            <summary>
+            显示数据改变事件
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.DataShow_DTChangeEvent">
+            <summary>
+            datashow事件，当DataTable 数据变更了之后，需要通知其它Form做变更。
+            </summary>
+        </member>
+        <member name="E:AF.Data.DataGroup.DataSaveChangeEvent">
+            <summary>
+            保存数据改变事件
+            </summary>
+        </member>
+        <member name="M:AF.Data.DataGroup.ReadCfgFromXml(System.String)">
+            <summary>
+            从xml文件中读取定义的Data信息
+            </summary>
+            <param name="doc"></param>
+        </member>
+        <member name="M:AF.Data.DataGroup.GetGroupData(System.String,System.String)">
+            <summary>
+            获取数据组数据
+            </summary>
+            <param name="strGroup"></param>
+            <param name="strName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.DataGroup.GetGroup(System.String)">
+            <summary>
+            获取数据组
+            </summary>
+            <param name="strGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.DataGroup.UpdateGridFromParam(System.String,System.Windows.Forms.DataGridView)">
+            <summary>
+            更新内存参数到表格数据
+            </summary>
+            <param name="strGroupName">组名</param>
+            <param name="grid">控件</param>
+        </member>
+        <member name="M:AF.Data.DataGroup.UpdateParamFromGrid(System.String,System.Windows.Forms.DataGridView)">
+            <summary>
+            更新表格数据到内存参数
+            </summary>
+            <param name="strGroupName"></param>
+            <param name="strVersion"></param>
+            <param name="isPDCA"></param>
+            <param name="nLevel">权限等级</param>
+            <param name="grid"></param>
+        </member>
+        <member name="M:AF.Data.DataGroup.Save">
+            <summary>
+            保存DataGroup
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.DataGroupModel">
+            <summary>
+            数据组
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataGroupModel.m_strGroupName">
+            <summary>
+            数据组名称
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataGroupModel.m_strVersion">
+            <summary>
+            数据版本
+            2025年10月21日，LZQ (大家一致讨论，暂时废弃该属性)
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataGroupModel.m_bIsPDCA">
+            <summary>
+            是否PDCA数据
+            2025年10月21日，LZQ (大家一致讨论，暂时废弃该属性)
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataGroupModel.m_nLevel">
+            <summary>
+            权限等级，0 - OP 1 - AE  2 - Adjustor 3 - Engineer 4 - Administator
+            2025年10月21日，LZQ (大家一致讨论，暂时废弃该属性)
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataGroupModel.m_dictData">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.Datamodel">
+            <summary>
+            数据类
+            </summary>
+        </member>
+        <member name="P:AF.Data.DataGroup.Datamodel.m_strName">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_strDataType">
+            <summary>
+            数据类型
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_dbStandardValue">
+            <summary>
+            标准值
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_dbCurValue">
+            <summary>
+            当前值
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_strDataIndex">
+            <summary>
+            对应ProductData中的数据字符串索引
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_dbLimitU">
+            <summary>
+            上限
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_dbLimitL">
+            <summary>
+            下限
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_dbOffset">
+            <summary>
+            补偿值
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.Datamodel.m_strUnit">
+            <summary>
+            单位
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.rootDatamodel">
+            <summary>
+            【使用场景】xml to json to class 使用，
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.SaveType">
+            <summary>
+            保存类型
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.SaveType.CSV">
+            <summary>
+            CSV文件
+            </summary>
+        </member>
+        <member name="T:AF.Data.DataGroup.DataType">
+            <summary>
+            数据类型，用于PDCA
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.pdata">
+            <summary>
+            data数据
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.attr">
+            <summary>
+            属性数据
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.dut_pos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.start_time">
+            <summary>
+            开始时间，yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.stop_time">
+            <summary>
+            结束时间，yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="F:AF.Data.DataGroup.DataType.log_file">
+            <summary>
+            日志文件
+            </summary>
+        </member>
+        <member name="M:AF.Data.Parameter.MinMaxVerify(System.String,System.String,System.String)">
+            <summary>
+            最大值最小值校验
+            </summary>
+            <param name="strValue">校验值</param>
+            <param name="strMin">最小值</param>
+            <param name="strMax">最大值</param>
+            <returns></returns>
+        </member>
+        <member name="F:AF.Data.Parameter.strParamFile">
+            <summary>
+            定义一个字符串变量,保存系统参数配置文件的名字
+            </summary>
+        </member>
+        <member name="F:AF.Data.Parameter.m_DicParam">
+            <summary>
+            定义一个集合变量，保存系统配置文件*SystemParam*.xml的信息
+            </summary>
+        </member>
+        <member name="M:AF.Data.Parameter.GetKeyParameters">
+            <summary>
+            获取关键参数集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:AF.Data.Parameter.m_strDescribe">
+            <summary>
+            系统参数配置文件表头
+            </summary>
+        </member>
+        <member name="T:AF.Data.Parameter.ParamChangedHandler">
+            <summary>
+            系统参数改变委托
+            </summary>
+            <param name="strParam">键值</param>
+            <param name="oldValue">旧值</param>
+            <param name="newValue">新值</param>
+        </member>
+        <member name="E:AF.Data.Parameter.ParamChangedEvent">
+            <summary>
+            系统参数改变事件
+            </summary>
+        </member>
+        <member name="M:AF.Data.Parameter.LoadParamFile(System.String)">
+            <summary>
+            从XML文件中读取配置文件参数,如加载SystemParam.xml文件
+            </summary>
+            <param name="strFile">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SaveParamFile">
+            <summary>
+            更新保存配置文件,如更新m_DicParam到SystemParam.xml文件
+            </summary>
+            <param name="strFile">文件路径</param>
+            <param name="strModifier">修改者</param>
+            <param name="strFileDescribe">文件描述</param>
+            <param name="bConfigMode">保存模式,取m_DicTempParam,m_DicParam其中之一</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.UpdateParamFromGrid(System.Windows.Forms.DataGridView)">
+            <summary>
+            更新界面表格内容到变量m_DicParam, 支持增加参数
+            </summary>
+            <param name="grid">表格控件关联变量</param>
+            <param name="bConfigMode">当前是否为配置模式(可增加新参数)</param>
+        </member>
+        <member name="M:AF.Data.Parameter.UpdateGridFromParam(System.Windows.Forms.DataGridView)">
+            <summary>
+            更新变量m_DicParam内容到界面表格
+            </summary>
+            <param name="grid">表格控件关联变量</param>
+            <param name="bConfig">默认为false </param>
+        </member>
+        <member name="M:AF.Data.Parameter.GetCellString(System.Object)">
+            <summary>
+            更新参数并输出
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.GetInt(System.String)">
+            <summary>
+            获取参数整型值
+            </summary>
+            <param name="szParam">字符串值索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SetInt(System.String,System.Int32)">
+            <summary>
+            设置参数整型值
+            </summary>
+            <param name="szParam">值索引</param>
+            <param name="nData">整型值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.GetBit(System.String)">
+            <summary>
+            获取参数布尔值
+            </summary>
+            <param name="szParam">字符串值索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SetBit(System.String,System.Boolean)">
+            <summary>
+            设置参数布尔值
+            </summary>
+            <param name="szParam">值索引</param>
+            <param name="bBit">布尔值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.GetDouble(System.String)">
+            <summary>
+            获取参数浮点数值
+            </summary>
+            <param name="szParam">字符串值索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SetDouble(System.String,System.Double)">
+            <summary>
+            设置参数浮点数值
+            </summary>
+            <param name="szParam">值索引</param>
+            <param name="fData">浮点值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.GetString(System.String)">
+            <summary>
+            获取参数字符串值
+            </summary>
+            <param name="szParam">值索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SetString(System.String,System.String)">
+            <summary>
+            设置参数字符串值
+            </summary>
+            <param name="szParam">值索引</param>
+            <param name="strData">字符串值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.GetStringEx(System.String)">
+            <summary>
+            获取数据库参数
+            </summary>
+            <param name="strKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Parameter.SetStringEx(System.String,System.String)">
+            <summary>
+            设置数据库参数
+            </summary>
+            <param name="strKey">值索引</param>
+            <param name="strValue">字符串值</param>
+            <returns></returns>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strKey">
+            <summary>
+            键值
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strValue">
+            <summary>
+            当前值
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strUnit">
+            <summary>
+            单位
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strMin">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strMax">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_strDescribe">
+            <summary>
+            参数描述
+            </summary>
+        </member>
+        <member name="F:AF.Data.ParamInfo.m_nLevel">
+            <summary>
+            权限等级
+            </summary>
+        </member>
+        <member name="T:AF.Data.ProductDataBase">
+            <summary>
+            生产数据，根据实际项目修改
+            </summary>
+        </member>
+        <member name="M:AF.Data.ProductDataBase.GetValue(System.String)">
+            <summary>
+            根据名称获取字段或者属性值，固定方法
+            </summary>
+            <param name="strName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.ProductDataBase.GetType(System.String)">
+            <summary>
+            根据名称获取字段或者属性的类型，固定方法
+            </summary>
+            <param name="strName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AF.Data.Register">
+            <summary>
+            寄存器
+            </summary>
+        </member>
+        <member name="T:AF.Data.Register.BitChangedHandler">
+            <summary>
+            定义一个系统位寄存器的委托,响应自动界面函数
+            </summary>
+            <param name="nIndex"></param>
+            <param name="bBit"></param>
+        </member>
+        <member name="E:AF.Data.Register.BitChangedEvent">
+            <summary>
+            系统位寄存器变更事件
+            </summary>
+        </member>
+        <member name="T:AF.Data.Register.IntChangedHandler">
+            <summary>
+            定义一个系统整型寄存器的委托,响应自动界面函数
+            </summary>
+            <param name="nIndex"></param>
+            <param name="nData"></param>
+        </member>
+        <member name="E:AF.Data.Register.IntChangedEvent">
+            <summary>
+            系统整型寄存器变更事件
+            </summary>
+        </member>
+        <member name="T:AF.Data.Register.DoubleChangedHandler">
+            <summary>
+            定义一个系统浮点型寄存器的委托,响应自动界面函数
+            </summary>
+            <param name="nIndex"></param>
+            <param name="fData"></param>
+        </member>
+        <member name="E:AF.Data.Register.DoubleChangedEvent">
+            <summary>
+            系统浮点型寄存器变更事件
+            </summary>
+        </member>
+        <member name="T:AF.Data.Register.StringChangedHandler">
+            <summary>
+            定义一个字符串型寄存器的委托,响应自动界面函数
+            </summary>
+            <param name="nIndex"></param>
+            <param name="sData"></param>
+        </member>
+        <member name="E:AF.Data.Register.StringChangedEvent">
+            <summary>
+            字符串型寄存器变更事件
+            </summary>
+        </member>
+        <member name="M:AF.Data.Register.GetBit(System.Int32)">
+            <summary>
+            获取指定的位寄存器的状态
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Register.SetBit(System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            向指定的位寄存器写入状态
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <param name="bBit">状态值</param>
+            <param name="bNotify">是否通知Form_Auto自动界面</param>
+        </member>
+        <member name="M:AF.Data.Register.GetInt(System.Int32)">
+            <summary>
+            获取指定的整型寄存器的值
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Register.SetInt(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            向指定的整型寄存器写入值
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <param name="nData">要写入的数值</param>
+            <param name="bNotify">是否通知Form_Auto自动界面</param>
+        </member>
+        <member name="M:AF.Data.Register.GetDouble(System.Int32)">
+            <summary>
+            获取一个浮点型寄存器的值
+            </summary>
+            <param name="nIndex">寄存器的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Register.SetDouble(System.Int32,System.Double,System.Boolean)">
+            <summary>
+            向一个浮点数寄存器写入值
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <param name="fData">要写入的值</param>
+            <param name="bNotify">是否通知Form_Auto自动界面</param>
+        </member>
+        <member name="M:AF.Data.Register.GetString(System.Int32)">
+            <summary>
+            获取一个字符串型寄存器的值
+            </summary>
+            <param name="nIndex">寄存器的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Data.Register.SetString(System.Int32,System.String,System.Boolean)">
+            <summary>
+            向一个字符创寄存器写入值
+            </summary>
+            <param name="nIndex">寄存器索引</param>
+            <param name="sData">要写入的值</param>
+            <param name="bNotify">是否通知Form_Auto自动界面</param>
+        </member>
+        <member name="F:AF.Data.UI.BaseForm.is_collect_control">
+            <summary>
+            是否收集控件信息
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.BaseForm.collect_control">
+            <summary>
+            收集控件的方法，在翻译管理中调用，其它场景不需要收集
+            </summary>
+        </member>
+        <member name="F:AF.Data.UI.BaseForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.BaseForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Data.UI.BaseForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AF.Data.UI.lan_common">
+            <summary>
+            语言翻译共用扩展类
+            </summary>
+        </member>
+        <member name="F:AF.Data.UI.lan_common.cinfo">
+            <summary>
+            类信息
+            </summary>
+        </member>
+        <member name="F:AF.Data.UI.lan_common.cinfo2">
+            <summary>
+            类信息
+            </summary>
+        </member>
+        <member name="T:AF.Data.UI.classinfo1">
+            <summary>
+            类信息 test
+            </summary>
+        </member>
+        <member name="P:AF.Data.UI.classinfo1._namespace">
+            <summary>
+            命名空间
+            </summary>
+        </member>
+        <member name="P:AF.Data.UI.classinfo1._classname">
+            <summary>
+            类名称
+            </summary>
+        </member>
+        <member name="P:AF.Data.UI.classinfo1._controlname">
+            <summary>
+            控件名称
+            </summary>
+        </member>
+        <member name="P:AF.Data.UI.classinfo1._cnvalue">
+            <summary>
+            当前值
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.button_update_Click(System.Object,System.EventArgs)">
+            <summary>
+            更新参数到内存
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.button_save_Click(System.Object,System.EventArgs)">
+            <summary>
+            保存参数到xml文件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.GetCellParam(System.String@,System.Object)">
+            <summary>
+            更新参数并输出
+            </summary>
+            <param name="strOut">输出对象</param>
+            <param name="obj">输入对象</param>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.dataGridView_param_CellValueChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            表格单元内容改变触发事件
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">附带数据的对象</param>
+        </member>
+        <member name="F:AF.Data.UI.Form_Parameter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Data.UI.Form_Parameter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Data.UI.Form_DataGroup.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.Form_DataGroup.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Data.UI.Form_DataGroup.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Data.UI.Form_Register.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Data.UI.Form_Register.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Data.UI.Form_Register.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AF.Common.TValue">
+            <summary>
+            通用数据类型
+            </summary>
+        </member>
+        <member name="M:AF.Common.TValue.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:AF.Common.TValue.#ctor(System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.#ctor(System.Double)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.#ctor(System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="P:AF.Common.TValue.I">
+            <summary>
+            转换为int型数据
+            </summary>
+        </member>
+        <member name="P:AF.Common.TValue.D">
+            <summary>
+            转换为double型数据
+            </summary>
+        </member>
+        <member name="P:AF.Common.TValue.B">
+            <summary>
+            转换为bool型数据
+            </summary>
+        </member>
+        <member name="P:AF.Common.TValue.S">
+            <summary>
+            转换为string型数据
+            </summary>
+        </member>
+        <member name="P:AF.Common.TValue.IsNumber">
+            <summary>
+            是否是数字
+            </summary>
+        </member>
+        <member name="P:AF.Common.TValue.IsNullOrEmpty">
+            <summary>
+            是否为空
+            </summary>
+        </member>
+        <member name="M:AF.Common.TValue.ToString">
+            <summary>
+            转换为字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.Clone">
+            <summary>
+            拷贝
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Implicit(System.Int32)~AF.Common.TValue">
+            <summary>
+            int型数据隐式转换为TValue类型
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.op_Implicit(System.Double)~AF.Common.TValue">
+            <summary>
+            double型数据隐式转换为TValue类型
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.op_Implicit(System.Boolean)~AF.Common.TValue">
+            <summary>
+            bool型数据隐式转换为TValue类型
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.op_Implicit(System.String)~AF.Common.TValue">
+            <summary>
+            string型数据隐式转换为TValue类型
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:AF.Common.TValue.op_Addition(AF.Common.TValue,System.Int32)">
+            <summary>
+            重载+运算
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Addition(AF.Common.TValue,System.Double)">
+            <summary>
+            重载+运算
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Addition(AF.Common.TValue,System.String)">
+            <summary>
+            重载+运算
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_GreaterThan(AF.Common.TValue,System.Int32)">
+            <summary>
+            重载>运算
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_GreaterThan(AF.Common.TValue,System.Double)">
+            <summary>
+            重载>运算
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_GreaterThanOrEqual(AF.Common.TValue,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_GreaterThanOrEqual(AF.Common.TValue,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_LessThan(AF.Common.TValue,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_LessThan(AF.Common.TValue,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_LessThanOrEqual(AF.Common.TValue,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_LessThanOrEqual(AF.Common.TValue,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Equality(AF.Common.TValue,AF.Common.TValue)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Inequality(AF.Common.TValue,AF.Common.TValue)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Equality(AF.Common.TValue,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Equality(AF.Common.TValue,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Inequality(AF.Common.TValue,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Common.TValue.op_Inequality(AF.Common.TValue,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

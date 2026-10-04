@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AF.Upload</name>
+    </assembly>
+    <members>
+        <member name="P:AF.Upload.UI.Form_Upload.FormCount">
+            <summary>
+            窗体页面个数
+            </summary>
+        </member>
+        <member name="M:AF.Upload.UI.Form_Upload.AddPage(System.Windows.Forms.Form[])">
+            <summary>
+            添加页面
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="F:AF.Upload.UI.Form_Upload.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Upload.UI.Form_Upload.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Upload.UI.Form_Upload.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AF.Upload.UI.Form_PDCA.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AF.Upload.UI.Form_PDCA.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AF.Upload.UI.Form_PDCA.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem">
+            <summary>
+            PDCA项
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_pdata">
+            <summary>
+            PDCA项：pdata
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_attr">
+            <summary>
+            PDCA项：attr
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_log">
+            <summary>
+            PDCA项：log
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_log_file">
+            <summary>
+            PDCA项：log_file
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_dut_pos">
+            <summary>
+            PDCA项：dut_pos
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_start_time">
+            <summary>
+            PDCA项：start_time
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PdcaItem_stop_time">
+            <summary>
+            PDCA项：stop_time
+            </summary>
+        </member>
+        <member name="P:AF.Upload.PDCA.TcpBufferSize">
+            <summary>
+            Tcp连接，接收缓存大小
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PDCA.PdcaMsgHandler">
+            <summary>
+            发送生产数据委托
+            </summary>
+            <param name="strMsg"></param>
+        </member>
+        <member name="E:AF.Upload.PDCA.ShowPdcaLog">
+            <summary>
+            发送生产数据事件
+            </summary>
+        </member>
+        <member name="T:AF.Upload.PDCA.ParseSnHandler">
+            <summary>
+            解析SN
+            </summary>
+        </member>
+        <member name="F:AF.Upload.PDCA.ParseSN">
+            <summary>
+            解析SN
+            </summary>
+        </member>
+        <member name="M:AF.Upload.PDCA.GetReceiveSN(System.String)">
+            <summary>
+            解析SN 的样例
+            </summary>
+            <param name="strRcvString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.AddItem(AF.Upload.PdcaItem)">
+            <summary>
+            添加PDCA项
+            </summary>
+            <param name="pdcaItem"></param>
+        </member>
+        <member name="M:AF.Upload.PDCA.Init(AF.Communicate.TcpClient,System.String,System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="tcp">Tcp网口</param>
+            <param name="nReuploadInterval">自动补传的间隔，单位s</param>
+            <param name="strLogPath">Log路径，默认用"D:\exe\PDCA\"</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.Deinit">
+            <summary>
+            断开PDCA连接
+            </summary>
+        </member>
+        <member name="M:AF.Upload.PDCA.Reupload">
+            <summary>
+            补传
+            </summary>
+        </member>
+        <member name="M:AF.Upload.PDCA.Upload(System.String,System.String[])">
+            <summary>
+            上传PDCA数据
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:AF.Upload.PDCA.ReceivePDCA(System.String,System.String@)">
+            <summary>
+            获取PDCA的回复
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.IsSuccess(System.String)">
+            <summary>
+            判断PDCA回复是否成功
+            </summary>
+            <param name="reply"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.GenPdcaLogName(System.String)">
+            <summary>
+            生成 PDCA log 文件路径
+            </summary>
+            <param name="strCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.GetSendString(System.String,System.String[])">
+            <summary>
+            获取PDCA上传格式字符串
+            </summary>
+            <param name="strSN">物料SN</param>
+            <param name="data">上传数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.Upload.PDCA.WriteFile(System.String,System.String)">
+            <summary>
+            写文件
+            </summary>
+            <param name="strFileName"></param>
+            <param name="strText"></param>
+        </member>
+    </members>
+</doc>

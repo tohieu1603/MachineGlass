@@ -1,0 +1,604 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AF.File</name>
+    </assembly>
+    <members>
+        <member name="T:AF.File.Csv">
+            <summary>
+            CSV文件操作类
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.FileName">
+            <summary>
+            文件名,包括文件路径
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.BInsertQuota">
+            <summary>
+            是否添加引号
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.FileEncoding">
+            <summary>
+            文件编码
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.RowCount">
+            <summary>
+            获取行数
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.ColCount">
+            <summary>
+            获取列数
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.Item(System.Int32,System.Int32)">
+            <summary>
+            获取某行某列的数据
+            row:行,row = 1代表第一行
+            col:列,col = 1代表第一列  
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.Rows">
+            <summary>
+            获取行
+            </summary>
+        </member>
+        <member name="P:AF.File.Csv.Item(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据最小行，最大行，最小列，最大列，来生成一个DataTable类型的数据
+            行等于1代表第一行
+            列等于1代表第一列
+            maxrow: -1代表最大行
+            maxcol: -1代表最大列
+            </summary>
+        </member>
+        <member name="M:AF.File.Csv.#ctor">
+            <summary>
+            默认以当前目录，当前日期生成文件名
+            </summary>
+        </member>
+        <member name="M:AF.File.Csv.#ctor(System.String)">
+            <summary>
+            以当前目录，文件名称组合生成文件名
+            </summary>
+            <param name="fileName">文件名,包括文件路径</param>
+        </member>
+        <member name="M:AF.File.Csv.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            指定文件名和编码方式
+            </summary>
+            <param name="fileName">文件名,包括文件路径</param>
+            <param name="encoding">文件编码</param>
+        </member>
+        <member name="M:AF.File.Csv.#ctor(System.String,System.String)">
+            <summary>
+            指定文件路径和文件名
+            </summary>
+            <param name="filePath">文件路径</param>
+            <param name="fileName">文件名,包括文件路径</param>
+        </member>
+        <member name="M:AF.File.Csv.CheckRowValid(System.Int32)">
+            <summary>
+            检查行数是否是有效的
+            </summary>
+            <param name="row"></param>  
+        </member>
+        <member name="M:AF.File.Csv.CheckMaxRowValid(System.Int32)">
+            <summary>
+            检查最大行数是否是有效的
+            </summary>
+            <param name="maxRow"></param>  
+        </member>
+        <member name="M:AF.File.Csv.CheckColValid(System.Int32)">
+            <summary>
+            检查列数是否是有效的
+            </summary>
+            <param name="col"></param>  
+        </member>
+        <member name="M:AF.File.Csv.CheckMaxColValid(System.Int32)">
+            <summary>
+            检查检查最大列数是否是有效的
+            </summary>
+            <param name="maxCol"></param>  
+        </member>
+        <member name="M:AF.File.Csv.LoadCsvFile">
+            <summary>
+            载入CSV文件
+            </summary>
+        </member>
+        <member name="M:AF.File.Csv.LoadCsvFile_WithLibrary_Dynamic">
+            <summary>
+            更快的载入CSV文件
+            </summary>
+        </member>
+        <member name="M:AF.File.Csv.IfOddQuota(System.String)">
+            <summary>
+            判断字符串是否包含奇数个引号
+            </summary>
+            <param name="dataLine">数据行</param>
+            <returns>为奇数时，返回为真；否则返回为假</returns>
+        </member>
+        <member name="M:AF.File.Csv.IfOddStartQuota(System.String)">
+            <summary>
+            判断是否以奇数个引号开始
+            </summary>
+            <param name="dataCell"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Csv.IfOddEndQuota(System.String)">
+            <summary>
+            判断是否以奇数个引号结尾
+            </summary>
+            <param name="dataCell"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Csv.AddNewDataLine(System.String)">
+            <summary>
+            加入新的数据行
+            </summary>
+            <param name="newDataLine">新的数据行</param>
+        </member>
+        <member name="M:AF.File.Csv.GetHandleData(System.String)">
+            <summary>
+            去掉格子的首尾引号，把双引号变成单引号
+            </summary>
+            <param name="fileCellData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Csv.AddData(System.Data.DataTable,System.Int32)">
+            <summary>
+            添加表数据到CSV文件中
+            </summary>
+            <param name="dataDT">表数据</param>
+            <param name="beginCol">从第几列开始,beginCol = 1代表第一列</param>
+        </member>
+        <member name="M:AF.File.Csv.AddRow(System.String)">
+            <summary>
+            添加一行数据到CSV文件中
+            </summary>
+            <param name="rowData">一行数据，用逗号分隔</param>
+        </member>
+        <member name="M:AF.File.Csv.AddRow(System.String[])">
+            <summary>
+            添加一行数据到CSV文件中
+            </summary>
+            <param name="values">字符串数组，表示一行的各列数据</param>
+        </member>
+        <member name="M:AF.File.Csv.Save">
+            <summary>
+            保存数据,如果当前硬盘中已经存在文件名一样的文件，将会覆盖
+            </summary>
+        </member>
+        <member name="M:AF.File.Csv.Save(System.String)">
+            <summary>
+            保存数据,如果当前硬盘中已经存在文件名一样的文件，将会覆盖
+            </summary>
+            <param name="fileName">文件名,包括文件路径</param>
+        </member>
+        <member name="M:AF.File.Csv.Save(System.String,System.Text.Encoding)">
+            <summary>
+            保存数据,如果当前硬盘中已经存在文件名一样的文件，将会覆盖
+            </summary>
+            <param name="fileName">文件名,包括文件路径</param>
+            <param name="encoding">文件编码</param>
+        </member>
+        <member name="M:AF.File.Csv.ConvertToSaveLine(System.Collections.ArrayList)">
+            <summary>
+            转换成保存行
+            </summary>
+            <param name="colAL">一行</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Csv.ConvertToSaveCell(System.String)">
+            <summary>
+            字符串转换成CSV中的格子
+            双引号转换成两个双引号，然后首尾各加一个双引号
+            这样就不需要考虑逗号及换行的问题
+            </summary>
+            <param name="cell">格子内容</param>
+            <returns></returns>
+        </member>
+        <member name="T:AF.File.CsvWriter">
+            <summary>
+            多线程同时写入同一个CSV文件
+            </summary>
+        </member>
+        <member name="P:AF.File.Excel.Sheet.RowCount">
+            <summary>
+            获取行数
+            </summary>
+        </member>
+        <member name="P:AF.File.Excel.Sheet.ColCount">
+            <summary>
+            获取列数
+            </summary>
+        </member>
+        <member name="P:AF.File.Excel.Sheet.Item(System.Int32,System.Int32)">
+            <summary>
+            获取某行某列的数据
+            row:行,row = 1代表第一行
+            col:列,col = 1代表第一列  
+            </summary>
+        </member>
+        <member name="P:AF.File.Excel.Sheet.Rows">
+            <summary>
+            获取行
+            </summary>
+        </member>
+        <member name="P:AF.File.Excel.Sheet.Item(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据最小行，最大行，最小列，最大列，来生成一个DataTable类型的数据
+            行等于1代表第一行
+            列等于1代表第一列
+            maxrow: -1代表最大行
+            maxcol: -1代表最大列
+            </summary>
+        </member>
+        <member name="M:AF.File.Excel.Sheet.CheckRowValid(System.Int32)">
+            <summary>
+            检查行数是否是有效的
+            </summary>
+            <param name="row"></param>  
+        </member>
+        <member name="M:AF.File.Excel.Sheet.CheckMaxRowValid(System.Int32)">
+            <summary>
+            检查最大行数是否是有效的
+            </summary>
+            <param name="maxRow"></param>  
+        </member>
+        <member name="M:AF.File.Excel.Sheet.CheckColValid(System.Int32)">
+            <summary>
+            检查列数是否是有效的
+            </summary>
+            <param name="col"></param>  
+        </member>
+        <member name="M:AF.File.Excel.Sheet.CheckMaxColValid(System.Int32)">
+            <summary>
+            检查检查最大列数是否是有效的
+            </summary>
+            <param name="maxCol"></param>  
+        </member>
+        <member name="M:AF.File.Excel.Sheet.AddData(System.Data.DataTable,System.Int32)">
+            <summary>
+            添加表数据到Excel文件中
+            </summary>
+            <param name="dataDT">表数据</param>
+            <param name="beginCol">从第几列开始,beginCol = 1代表第一列</param>
+        </member>
+        <member name="M:AF.File.Excel.Sheet.AddRow(System.String)">
+            <summary>
+            添加一行数据到Excel文件中
+            </summary>
+            <param name="rowData">一行数据，用逗号分隔</param>
+        </member>
+        <member name="M:AF.File.Excel.Sheet.AddRow(System.String[])">
+            <summary>
+            添加一行数据到Excel文件中
+            </summary>
+            <param name="values">字符串数组，表示一行的各列数据</param>
+        </member>
+        <member name="M:AF.File.Excel.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="strFileName"></param>
+            <param name="fileEncoding"></param>
+        </member>
+        <member name="P:AF.File.Excel.Item(System.String)">
+            <summary>
+            获取页，没有则新建
+            </summary>
+            <param name="strSheetName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:AF.File.Excel.Item(System.Int32)">
+            <summary>
+            获取页，没有则新建
+            </summary>
+            <param name="nIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Excel.Load">
+            <summary>
+            载入Excel文件
+            </summary>
+        </member>
+        <member name="M:AF.File.Excel.Save">
+            <summary>
+            保存数据,如果当前硬盘中已经存在文件名一样的文件，将会覆盖
+            </summary>
+        </member>
+        <member name="T:AF.File.Ini">
+            <summary>
+            Ini文件读写封装类
+            </summary>
+        </member>
+        <member name="M:AF.File.Ini.GetPrivateProfileSectionNames(System.IntPtr,System.UInt32,System.String)">
+            <summary>
+            获取所有节点名称(Section)
+            </summary>
+            <param name="lpszReturnBuffer">存放节点名称的内存地址,每个节点之间用\0分隔</param>
+            <param name="nSize">内存大小(characters)</param>
+            <param name="lpFileName">Ini文件</param>
+            <returns>内容的实际长度,为0表示没有内容,为nSize-2表示内存大小不够</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetPrivateProfileSection(System.String,System.IntPtr,System.UInt32,System.String)">
+            <summary>
+            获取某个指定节点(Section)中所有KEY和Value
+            </summary>
+            <param name="lpAppName">节点名称</param>
+            <param name="lpReturnedString">返回值的内存地址,每个之间用\0分隔</param>
+            <param name="nSize">内存大小(characters)</param>
+            <param name="lpFileName">Ini文件</param>
+            <returns>内容的实际长度,为0表示没有内容,为nSize-2表示内存大小不够</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetPrivateProfileString(System.String,System.String,System.String,System.Char[],System.UInt32,System.String)">
+            <summary>
+            读取INI文件中指定的Key的值
+            </summary>
+            <param name="lpAppName">节点名称。如果为null,则读取INI中所有节点名称,每个节点名称之间用\0分隔</param>
+            <param name="lpKeyName">Key名称。如果为null,则读取INI中指定节点中的所有KEY,每个KEY之间用\0分隔</param>
+            <param name="lpDefault">读取失败时的默认值</param>
+            <param name="lpReturnedString">读取的内容缓冲区，读取之后，多余的地方使用\0填充</param>
+            <param name="nSize">内容缓冲区的长度</param>
+            <param name="lpFileName">INI文件名</param>
+            <returns>实际读取到的长度</returns>
+        </member>
+        <member name="M:AF.File.Ini.WritePrivateProfileSection(System.String,System.String,System.String)">
+            <summary>
+            将指定的键值对写到指定的节点，如果已经存在则替换。
+            </summary>
+            <param name="lpAppName">节点，如果不存在此节点，则创建此节点</param>
+            <param name="lpString">Item键值对，多个用\0分隔,形如key1=value1\0key2=value2
+            <para>如果为string.Empty，则删除指定节点下的所有内容，保留节点</para>
+            <para>如果为null，则删除指定节点下的所有内容，并且删除该节点</para>
+            </param>
+            <param name="lpFileName">INI文件</param>
+            <returns>是否成功写入</returns>
+        </member>
+        <member name="M:AF.File.Ini.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+            <summary>
+            将指定的键和值写到指定的节点，如果已经存在则替换
+            </summary>
+            <param name="lpAppName">节点名称</param>
+            <param name="lpKeyName">键名称。如果为null，则删除指定的节点及其所有的项目</param>
+            <param name="lpString">值内容。如果为null，则删除指定节点中指定的键。</param>
+            <param name="lpFileName">INI文件</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetAllSectionNames(System.String)">
+            <summary>
+            读取INI文件中指定INI文件中的所有节点名称(Section)
+            </summary>
+            <param name="iniFile">Ini文件</param>
+            <returns>所有节点,没有内容返回string[0]</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetAllItems(System.String,System.String)">
+            <summary>
+            获取INI文件中指定节点(Section)中的所有条目(key=value形式)
+            </summary>
+            <param name="iniFile">Ini文件</param>
+            <param name="section">节点名称</param>
+            <returns>指定节点中的所有项目,没有内容返回string[0]</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetAllItemKeys(System.String,System.String)">
+            <summary>
+            获取INI文件中指定节点(Section)中的所有条目的Key列表
+            </summary>
+            <param name="iniFile">Ini文件</param>
+            <param name="section">节点名称</param>
+            <returns>如果没有内容,反回string[0]</returns>
+        </member>
+        <member name="M:AF.File.Ini.GetStringValue(System.String,System.String,System.String,System.String)">
+            <summary>
+            读取INI文件中指定KEY的字符串型值
+            </summary>
+            <param name="iniFile">Ini文件</param>
+            <param name="section">节点名称</param>
+            <param name="key">键名称</param>
+            <param name="defaultValue">如果没此KEY所使用的默认值</param>
+            <returns>读取到的值</returns>
+        </member>
+        <member name="M:AF.File.Ini.WriteItems(System.String,System.String,System.String)">
+            <summary>
+            在INI文件中，将指定的键值对写到指定的节点，如果已经存在则替换
+            </summary>
+            <param name="iniFile">INI文件</param>
+            <param name="section">节点，如果不存在此节点，则创建此节点</param>
+            <param name="items">键值对，多个用\0分隔,形如key1=value1\0key2=value2</param>
+            <returns></returns>
+        </member>
+        <member name="M:AF.File.Ini.WriteValue(System.String,System.String,System.String,System.String)">
+            <summary>
+            在INI文件中，指定节点写入指定的键及值。如果已经存在，则替换。如果没有则创建。
+            </summary>
+            <param name="iniFile">INI文件</param>
+            <param name="section">节点</param>
+            <param name="key">键</param>
+            <param name="value">值</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:AF.File.Ini.DeleteKey(System.String,System.String,System.String)">
+            <summary>
+            在INI文件中，删除指定节点中的指定的键。
+            </summary>
+            <param name="iniFile">INI文件</param>
+            <param name="section">节点</param>
+            <param name="key">键</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:AF.File.Ini.DeleteSection(System.String,System.String)">
+            <summary>
+            在INI文件中，删除指定的节点。
+            </summary>
+            <param name="iniFile">INI文件</param>
+            <param name="section">节点</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:AF.File.Ini.EmptySection(System.String,System.String)">
+            <summary>
+            在INI文件中，删除指定节点中的所有内容。
+            </summary>
+            <param name="iniFile">INI文件</param>
+            <param name="section">节点</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:AF.File.Json.Obj2Json``1(``0,System.String@)">
+            <summary>
+            对象序列化为 JSON 字符串
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="instance">对象实例</param>
+            <param name="json">输出的 JSON 字符串</param>
+            <returns>成功返回 true，失败返回 false</returns>
+        </member>
+        <member name="M:AF.File.Json.Json2Obj``1(System.String,``0@)">
+            <summary>
+            JSON 字符串反序列化为对象
+            </summary>
+            <typeparam name="T">对象类型</typeparam>
+            <param name="json">JSON 字符串</param>
+            <param name="instance">输出的对象实例</param>
+            <returns>成功返回 true，失败返回 false</returns>
+        </member>
+        <member name="M:AF.File.Xml.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="filePath">XML文件路径</param>
+        </member>
+        <member name="M:AF.File.Xml.FileExists">
+            <summary>
+            检查XML文件是否存在
+            </summary>
+            <returns>如果文件存在返回true，否则返回false</returns>
+        </member>
+        <member name="M:AF.File.Xml.LoadXmlDocument">
+            <summary>
+            加载XML文档
+            </summary>
+            <returns>加载的XmlDocument对象</returns>
+            <exception cref="T:System.IO.FileNotFoundException">当文件不存在时抛出</exception>
+        </member>
+        <member name="M:AF.File.Xml.SaveXmlDocument(System.Xml.XmlDocument)">
+            <summary>
+            保存XML文档
+            </summary>
+            <param name="doc">要保存的XmlDocument对象</param>
+        </member>
+        <member name="M:AF.File.Xml.CreateNewXmlFile(System.String)">
+            <summary>
+            创建新的XML文件
+            </summary>
+            <param name="rootElementName">根元素名称</param>
+        </member>
+        <member name="M:AF.File.Xml.GetNodesByXPath(System.String)">
+            <summary>
+            根据XPath获取节点列表
+            </summary>
+            <param name="xpath">XPath查询字符串</param>
+            <returns>匹配的XmlNodeList</returns>
+        </member>
+        <member name="M:AF.File.Xml.GetNodeByXPath(System.String)">
+            <summary>
+            根据XPath获取单个节点
+            </summary>
+            <param name="xpath">XPath查询字符串</param>
+            <returns>匹配的第一个XmlNode，如果没有匹配则返回null</returns>
+        </member>
+        <member name="M:AF.File.Xml.GetNodesByElementName(System.String)">
+            <summary>
+            获取指定元素名称的所有节点
+            </summary>
+            <param name="elementName">元素名称</param>
+            <returns>匹配的XmlNodeList</returns>
+        </member>
+        <member name="M:AF.File.Xml.GetNodesByAttribute(System.String,System.String,System.String)">
+            <summary>
+            根据属性和值获取节点
+            </summary>
+            <param name="elementName">元素名称</param>
+            <param name="attributeName">属性名称</param>
+            <param name="attributeValue">属性值</param>
+            <returns>匹配的XmlNodeList</returns>
+        </member>
+        <member name="M:AF.File.Xml.GetNodeAttributes(System.Xml.XmlNode)">
+            <summary>
+            获取节点的所有属性
+            </summary>
+            <param name="node">要获取属性的XmlNode</param>
+            <returns>包含属性名和值的字典</returns>
+        </member>
+        <member name="M:AF.File.Xml.GetNodesWithAttributes(System.String)">
+            <summary>
+            获取节点列表及其属性
+            </summary>
+            <param name="xpath">XPath查询字符串</param>
+            <returns>包含节点属性字典的列表</returns>
+        </member>
+        <member name="M:AF.File.Xml.AddNode(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            添加新节点到父节点
+            </summary>
+            <param name="parentXPath">父节点的XPath</param>
+            <param name="elementName">要创建的新元素名称</param>
+            <param name="attributes">新元素的属性字典</param>
+            <exception cref="T:System.ArgumentException">当父节点不存在时抛出</exception>
+        </member>
+        <member name="M:AF.File.Xml.AddNodeToRoot(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            添加新节点到根节点
+            </summary>
+            <param name="elementName">要创建的新元素名称</param>
+            <param name="attributes">新元素的属性字典</param>
+        </member>
+        <member name="M:AF.File.Xml.UpdateNodeAttributes(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            更新节点的属性
+            </summary>
+            <param name="xpath">要更新节点的XPath</param>
+            <param name="attributes">要更新的属性字典</param>
+            <exception cref="T:System.ArgumentException">当节点不存在时抛出</exception>
+        </member>
+        <member name="M:AF.File.Xml.UpdateNodeAttribute(System.String,System.String,System.String)">
+            <summary>
+            更新节点的单个属性
+            </summary>
+            <param name="xpath">要更新节点的XPath</param>
+            <param name="attributeName">要更新的属性名称</param>
+            <param name="attributeValue">新的属性值</param>
+        </member>
+        <member name="M:AF.File.Xml.UpdateNodesByCondition(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            根据条件更新多个节点
+            </summary>
+            <param name="elementName">元素名称</param>
+            <param name="conditionAttribute">条件属性名称</param>
+            <param name="conditionValue">条件属性值</param>
+            <param name="newAttributes">要更新的新属性字典</param>
+        </member>
+        <member name="M:AF.File.Xml.DeleteNode(System.String)">
+            <summary>
+            删除节点
+            </summary>
+            <param name="xpath">要删除节点的XPath</param>
+        </member>
+        <member name="M:AF.File.Xml.DeleteNodesByCondition(System.String,System.String,System.String)">
+            <summary>
+            根据条件删除多个节点
+            </summary>
+            <param name="elementName">元素名称</param>
+            <param name="attributeName">条件属性名称</param>
+            <param name="attributeValue">条件属性值</param>
+        </member>
+        <member name="M:AF.File.Xml.DeleteAllNodes(System.String)">
+            <summary>
+            删除所有指定元素名称的节点
+            </summary>
+            <param name="elementName">要删除的元素名称</param>
+        </member>
+    </members>
+</doc>

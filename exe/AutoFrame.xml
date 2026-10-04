@@ -1,0 +1,3772 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AutoFrame</name>
+    </assembly>
+    <members>
+        <member name="F:Autoframe.TcpCommu_CCD1.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD1.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD1.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD1.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD1.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD1.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD1.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD2.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD2.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD3.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD3.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD4.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD4.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD5.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD5.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD6.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD6.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD7.resultn">
+            <summary>
+            吸嘴n结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD7.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_CCD8.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_CCD8.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Robot.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Robot.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Robot.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            机械手发送指令接口
+            </summary>
+            <param name="strRcv">接收数据</param>
+            <param name="nCmdIdx">机械手指令</param>
+            <param name="bWait">是否等待接收数据</param>
+            <param name="param">机械手参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待机械手回复并解析
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.Recevie(System.String[]@,System.String,System.String,System.Int32)">
+            <summary>
+            TCP接收数据
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWish"></param>
+            <param name="strEndWish"></param>
+            <param name="nTimeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Robot.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.m_InitLock">
+            <summary>
+            初始化锁
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.tcpLink">
+            <summary>
+            创建TCP连接
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.strReceive">
+            <summary>
+            接收相机返回的数据(已分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.strRcvOrg">
+            <summary>
+            接收相机返回的数据(未分割)
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.strStartCmd">
+            <summary>
+            发送数据的命令头
+            </summary>
+        </member>
+        <member name="F:Autoframe.TcpCommu_Camera.result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.Init(Autoframe.StationEx,System.Int32)">
+            <summary>
+            初始化相机连接
+            </summary>
+            <param name="nIpIndex">网口索引</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.GetSendString(System.Object,System.Object[])">
+            <summary>
+            获取发送指令文本
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+            <param name="param">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.SendCmd(System.String[]@,System.Int32,System.Boolean,System.Object[])">
+            <summary>
+            发送相机命令
+            </summary>
+            <param name="strRcv"></param>
+            <param name="nCmdIdx"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.WaitReplyAndProcess(System.String[]@,System.Int32)">
+            <summary>
+            等待回复并处理
+            </summary>
+            <param name="strDatas"></param>
+            <param name="nCmdIdx"></param>
+            <param name="data"></param>
+            <param name="bCheckRcv"></param>
+            <param name="respond"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.Recevie(System.String[]@,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            接收回复
+            </summary>
+            <param name="strDatas"></param>
+            <param name="strStartWith"></param>
+            <param name="strEndWith"></param>
+            <param name="nTimeOut"></param>
+            <param name="nCmdIdx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.TcpCommu_Camera.AnalyzeRcvString(System.Object)">
+            <summary>
+            接受数据解析
+            </summary>
+            <param name="nCmdIdx">命令索引</param>
+        </member>
+        <member name="T:Autoframe.DI">
+            <summary>
+            数字量输入
+            </summary>
+        </member>
+        <member name="T:Autoframe.DO">
+            <summary>
+            数字量输出
+            </summary>
+        </member>
+        <member name="T:Autoframe.AI">
+            <summary>
+            模拟量输入枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.Cylinder">
+            <summary>
+            气缸
+            </summary>
+        </member>
+        <member name="T:Autoframe.AXIS">
+            <summary>
+            轴
+            </summary>
+        </member>
+        <member name="T:Autoframe.TCP_Client">
+            <summary>
+            TCP客户端
+            </summary>
+        </member>
+        <member name="T:Autoframe.TCP_Server">
+            <summary>
+            TCP服务器
+            </summary>
+        </member>
+        <member name="T:Autoframe.COM">
+            <summary>
+            串口
+            </summary>
+        </member>
+        <member name="T:Autoframe.RegBit">
+            <summary>
+            位寄存器
+            </summary>
+        </member>
+        <member name="T:Autoframe.RegInt">
+            <summary>
+            整型寄存器
+            </summary>
+        </member>
+        <member name="F:Autoframe.RegInt.Int_Process_Step">
+            <summary>
+            站位运行进度百分比，用于界面显示进度条      
+            </summary>
+        </member>
+        <member name="T:Autoframe.RegDouble">
+            <summary>
+            浮点型寄存器
+            </summary>
+        </member>
+        <member name="T:Autoframe.RegString">
+            <summary>
+            字符串寄存器
+            </summary>
+        </member>
+        <member name="T:Autoframe.Material">
+            <summary>
+            生产主料枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.ThrowReason">
+            <summary>
+            抛料原因
+            </summary>
+        </member>
+        <member name="T:Autoframe.PlannedDown">
+            <summary>
+            计划停机枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.ErrCustom">
+            <summary>
+            非计划停机枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.AutoProcess">
+            <summary>
+            自动流程
+            </summary>
+        </member>
+        <member name="M:Autoframe.HandleEx.Get(Autoframe.DI)">
+            <summary>
+            获取输入信号状态
+            </summary>
+            <param name="enumDI">DI枚举中成员</param>
+            <returns>DI当前状态</returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.Get(Autoframe.DO)">
+            <summary>
+            获取输出信号状态
+            </summary>
+            <param name="enumDO">DO枚举中成员</param>
+            <returns>DO当前状态</returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.Set(Autoframe.DO,System.Boolean)">
+            <summary>
+            设置输出信号状态
+            </summary>
+            <param name="enumDO">DO枚举中成员</param>
+            <param name="bBit">输出状态</param>
+        </member>
+        <member name="M:Autoframe.HandleEx.Out(Autoframe.Cylinder)">
+            <summary>
+            气缸伸出
+            </summary>
+            <returns>其它：执行时间 0:不等待到位 -1：超时</returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.Back(Autoframe.Cylinder)">
+            <summary>
+            气缸缩回
+            </summary>
+            <returns>其它：执行时间 0:不等待到位 -1：超时</returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.GetPos(Autoframe.AXIS)">
+            <summary>
+            获取轴位置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.ServoOn(Autoframe.AXIS,System.Boolean)">
+            <summary>
+            伺服使能
+            </summary>
+            <param name="bServoOn">使能或断使能</param>
+        </member>
+        <member name="M:Autoframe.HandleEx.Stop(Autoframe.AXIS)">
+            <summary>
+            伺服正常停止
+            </summary>
+        </member>
+        <member name="M:Autoframe.HandleEx.SetParam(Autoframe.AXIS,System.Int32,System.Double)">
+            <summary>
+            设置单轴的某一运动参数(浮点)
+            </summary>
+            <param name="nParam">参数:自定义扩展</param>
+            <param name="fData">参数值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.AbsMove(Autoframe.AXIS,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            绝对位置移动：不受系统速度影响
+            </summary>
+            <param name="nPos">目标点位：mm</param>
+            <param name="dbSpeed">速度：mm/s</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.AbsMove(Autoframe.AXIS,System.Double,System.Int32,System.Double,System.Double,System.Boolean)">
+            <summary>
+            绝对位置移动：受系统速度影响
+            </summary>
+            <param name="fPos">位置：mm</param> 
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.RelativeMove(Autoframe.AXIS,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            相对位置移动：不受系统速度影响
+            </summary>
+            <param name="axis">轴号</param>
+            <param name="fPos">相对位置：mm</param>
+            <param name="dbSpeed">绝对值速度</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.RelativeMove(Autoframe.AXIS,System.Double,System.Int32,System.Double,System.Double,System.Boolean)">
+            <summary>
+            相对位置移动：受系统速度影响
+            </summary>
+            <param name="axis">轴号</param>
+            <param name="fPos">相对位置：mm</param>
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.Home(Autoframe.AXIS,System.Boolean,System.Int32)">
+            <summary>
+            回原点
+            </summary>
+            <param name="axis">自动运行</param>
+            <param name="bPause">是否响应暂停</param>
+            <param name="nHomeMode">缺省值-1：使用轴配置</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.IsStop(Autoframe.AXIS)">
+            <summary>
+            轴是否正常停止
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.IsPEL(Autoframe.AXIS)">
+            <summary>
+            是否在正限位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.IsMEL(Autoframe.AXIS)">
+            <summary>
+            是否在负限位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.IsOrg(Autoframe.AXIS)">
+            <summary>
+            是否在原点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.HandleEx.GetStation``1(System.String)">
+            <summary>
+            获取站位
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.Program.Main(System.String[])">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="M:Autoframe.Program.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="T:Autoframe.ProgramToolEx">
+            <summary>
+            工具类
+            </summary>
+        </member>
+        <member name="M:Autoframe.ProgramToolEx.ConnectShareFolder(System.String,System.String,System.String,System.String@)">
+            <summary>
+            连接共享文件夹
+            </summary>
+            <param name="path">共享路径</param>
+            <param name="user">用户名</param>
+            <param name="password">密码</param>
+            <param name="error">输出错误</param>
+            <returns></returns>
+            <remarks>
+            Windows 网络共享文件夹连接验证
+            </remarks>
+        </member>
+        <member name="T:Autoframe.StationEx">
+            <summary>
+            站位
+            </summary>
+        </member>
+        <member name="E:Autoframe.StationEx.StationProcessChanged">
+            <summary>
+            自动流程改变
+            </summary>
+        </member>
+        <member name="P:Autoframe.StationEx.Duration">
+            <summary>
+            ShowMsg所需要的时长
+            </summary>
+        </member>
+        <member name="P:Autoframe.StationEx.IsDryRun">
+            <summary>
+            是否空跑流程
+            </summary>
+        </member>
+        <member name="F:Autoframe.StationEx.m_FileLock">
+            <summary>
+            自动流程
+            </summary>
+        </member>
+        <member name="M:Autoframe.StationEx.LoadContainer``2">
+            <summary>
+            加载当站Container信息
+            </summary>
+            <typeparam name="EContainer">容器枚举</typeparam>
+            <typeparam name="TContainer">容器类型</typeparam>
+        </member>
+        <member name="M:Autoframe.StationEx.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="M:Autoframe.StationEx.OnStepChanged(System.String)">
+            <summary>
+            响应流程步改变
+            </summary>
+            <param name="strStep"></param>
+        </member>
+        <member name="M:Autoframe.StationEx.StepRun(System.String,System.Boolean)">
+            <summary>
+            流程步运行
+            </summary>
+            <param name="strStep">步名</param>
+            <param name="bInit">是否是初始化步</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.InitRun(System.String)">
+            <summary>
+            初始化流程运行
+            </summary>
+            <param name="strStep"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.ProduceRun(System.String)">
+            <summary>
+            生产流程运行
+            </summary>
+            <param name="strStep"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.CalibRun(System.String)">
+            <summary>
+            标定流程运行
+            </summary>
+            <param name="strStep"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.GrrRun(System.String)">
+            <summary>
+            GRR流程运行
+            </summary>
+            <param name="strStep"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.OtherRun(System.String)">
+            <summary>
+            其他流程运行
+            </summary>
+            <param name="strStep"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitRegBit(Autoframe.RegBit,System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            等待Bit寄存器有效
+            </summary>
+            <param name="regBit">Bit寄存器枚举</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停状态</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitRegBit(Autoframe.RegBit[],System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            等待任意Bit寄存器值有效
+            </summary>
+            <param name="regBit">Bit寄存器枚举数组</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns>有效的寄存器</returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitRegBitAll(Autoframe.RegBit[],System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            等待所有Bit寄存器值有效
+            </summary>
+            <param name="regBit">Bit寄存器枚举数组</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitDI(Autoframe.DI,System.Boolean,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            等待IO输入点有效
+            </summary>
+            <param name="enumDI">DI枚举</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bTimeOutReturn">设置为true 超时返回，跳出循环；设置为false 超时不返回，卡在循环里</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns>true:未超时  false:超时  </returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitDI(Autoframe.DI[],System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            等待任意DI有效
+            </summary>
+            <param name="enumDI">DI枚举数组</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns>有效的DI</returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitDiAll(Autoframe.DI[],System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            等待所有DI有效
+            </summary>
+            <param name="enumDI">DI枚举数组</param>
+            <param name="bValue">有效值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitBegin">
+            <summary>
+            等待启动
+            </summary>
+        </member>
+        <member name="M:Autoframe.StationEx.CylinderOut(Autoframe.Cylinder,System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            气缸伸出
+            </summary>
+            <param name="cylinder">气缸枚举</param>
+            <param name="wait">是否等待气缸到位信号</param>
+            <param name="nTimeOutS">等待到位超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.CylinderBack(Autoframe.Cylinder,System.Boolean,System.Int32,System.Boolean)">
+            <summary>
+            气缸缩回
+            </summary>
+            <param name="cylinder">气缸枚举</param>
+            <param name="wait">是否等待气缸到位信号</param>
+            <param name="nTimeOutS">等待到位超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitCylOut(Autoframe.Cylinder,System.Int32,System.Boolean)">
+            <summary>
+            等待气缸伸出到位
+            </summary>
+            <param name="cylinder">气缸枚举</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitCylBack(Autoframe.Cylinder,System.Int32,System.Boolean)">
+            <summary>
+            等待气缸缩回到位
+            </summary>
+            <param name="cylinder">气缸枚举</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.AllServoOn(Autoframe.StationEx,System.Boolean)">
+            <summary>
+            当前站位所有轴上使能
+            </summary>
+            <param name="station"></param>
+            <param name="bServoOn"></param>
+        </member>
+        <member name="M:Autoframe.StationEx.AxisSingleTo``1(``0,Autoframe.AXIS,System.Int32,System.Double,System.Double,System.Boolean)">
+            <summary>
+            单轴跑点位
+            </summary>
+            <param name="enumAxis">轴枚举</param>
+            <param name="enumPoint">点位枚举</param>
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Autoframe.StationEx.AxisSingleTo(System.Double,Autoframe.AXIS,System.Int32,System.Double,System.Double,System.Boolean)">
+            <summary>
+            单轴跑位置
+            </summary>
+            <param name="enumAxis">轴枚举</param>
+            <param name="fPos">目标位置</param>
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="dbAcc">加速度：s，设为0 使用配置文档</param>
+            <param name="dbDec">减速度：s，设为0 使用配置文档</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Autoframe.StationEx.UpdatePtpTgtPos(Autoframe.AXIS,System.Double)">
+            <summary>
+            更新轴目标位置
+            </summary>
+            <param name="enumAxis"></param>
+            <param name="enumPoint"></param>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Autoframe.StationEx.AxisGoto``1(``0,Autoframe.AXIS[],System.Int32,System.Boolean)">
+            <summary>
+            多轴跑点位
+            </summary>
+            <param name="enumAxis">要参与运动的轴 数组，如果为 null 所有轴一起跑</param>
+            <param name="enumPoint">点位枚举</param>
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.AxisGoto(System.Double[],Autoframe.AXIS[],System.Int32,System.Boolean)">
+            <summary>
+            多轴跑位置
+            </summary>
+            <param name="enumAxis">要参与运动的轴 数组，如果为 null 所有轴一起跑</param>
+            <param name="fPos">目标位置数组</param>
+            <param name="nSpeedPercent">速度百分比</param>
+            <param name="bPause">是否响应暂停</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitAxis(Autoframe.AXIS,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            等轴待运动完成
+            </summary>
+            <param name="enumAxis">轴枚举</param>
+            <param name="nInPosError"> 到位误差[脉冲值]：小于0 使用系统配置，大于0 实际误差值</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.IsInPos(Autoframe.AXIS)">
+            <summary>
+            判断轴是否到位
+            </summary>
+            <param name="enumAxis"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitAxisInterpolation(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            等待插补运动完成
+            </summary>
+            <param name="nCardIndex">卡号</param>
+            <param name="nPointTableIndex">插补缓存表序号</param>
+            <param name="nTimeOutS">超时时间(以秒为单位)，-1:一直等待， 0：使用系统参数设置时间， 其它：特定时间</param>
+            <param name="bPause">是否响应暂停</param>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitTcp(AF.Communicate.TcpClient,System.String@,System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            等待网络回复以某字符串开头和某字符串结尾的字符串数据
+            </summary>
+            <param name="tcplink">TCP对象</param>
+            <param name="strReceive">接收到的数据</param>
+            <param name="strStartWith">开头字符串</param>
+            <param name="strEndWith">结尾字符串</param>
+            <param name="nTimeOutS">超时时间，单位秒 0:系统时间 -1:一直等待 其他:其他时间</param>
+            <param name="bTimeOutReturn">设置为true 超时返回，跳出循环；设置为false 超时不返回，卡在循环里</param>
+            <returns>true:未超时  false:超时</returns>
+        </member>
+        <member name="M:Autoframe.StationEx.WaitCom(AF.Communicate.ComPort,System.String@,System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            等待串口回复以某字符串开头和某字符串结尾的字符串数据
+            </summary>
+            <param name="comLink">TCP对象</param>
+            <param name="strReceive">接收到的数据</param>
+            <param name="strStartWith">开头字符串</param>
+            <param name="strEndWith">结尾字符串</param>
+            <param name="nTimeOutS">超时时间，单位秒 0:系统时间 -1:一直等待 其他:其他时间</param>
+            <param name="bTimeOutReturn">设置为true 超时返回，跳出循环；设置为false 超时不返回，卡在循环里</param>
+            <returns>true:未超时  false:超时  </returns>
+        </member>
+        <member name="M:Autoframe.StationEx.SaveCsv(System.String,System.String,System.String,System.String[])">
+            <summary>
+            保存CSV文件
+            </summary>
+            <param name="FolderName">文件夹名称</param>
+            <param name="strFileName">文件名称</param>
+            <param name="strHead">表头</param>
+            <param name="strWriteData">要写入的数据</param>
+        </member>
+        <member name="M:Autoframe.InoRobot.#ctor(System.String,System.Int32)">
+            <summary>
+            连接顺序：1-Connect；2-检测急停及故障并清除故障状态；3-servoON；4-switchAutoMode；5-外部TCP连接；6-start；暂停停止：pause；断开：disConnect
+            </summary>
+            <param name="strIpAddr">IP</param>
+            <param name="comId">自定义该IP对应的操作ID</param>
+        </member>
+        <member name="M:Autoframe.InoRobot.Connect">
+            <summary>
+            API连接机械手（不是TCP连接）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.disConnect">
+            <summary>
+            API断开连接机械手（不是TCP连接）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.switchAutoMode">
+            <summary>
+            切换到自动模式（API连接的情况下，切到自动模式与启动机械手之间需要延时）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.getErrorInfo">
+            <summary>
+            获取报警信息
+            </summary>
+            <returns>0：正常；其他：异常</returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.ResetError">
+            <summary>
+            故障复位（不复位急停）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.getEStopSts">
+            <summary>
+            获取急停状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.ppToStartLine">
+            <summary>
+            程序指针复位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.InoRobot.ReadErrcodeCsv">
+            <summary>
+            读取ErrcodeCsv
+            </summary>
+        </member>
+        <member name="T:Autoframe.ProductData">
+            <summary>
+            产品数据，可添加定制化属性
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.DtStartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.DtEndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.UpRingTime">
+            <summary>
+            上钢环时间
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.PianPos">
+            <summary>
+            钢环内料位全局序号（扩膜站取料时分配，AR最终判定后回写监控窗体）
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.NGPos">
+            <summary>
+            NG覆膜位全局序号
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.OKPos">
+            <summary>
+            OK覆膜位全局序号
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.NGReason">
+            <summary>
+            NG原因
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.CT">
+            <summary>
+            节拍,相应单独吸嘴放料
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.CCD3Sit">
+            <summary>
+            CCD3穴位
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.CCD6Sit">
+            <summary>
+            CCD6穴位
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.Ringsite">
+            <summary>
+            上料钢环号
+            </summary>
+        </member>
+        <member name="P:Autoframe.ProductData.BreakDownTime">
+            <summary>
+            宕机时长
+            </summary>
+        </member>
+        <member name="T:Autoframe.RingMonitor">
+            <summary>
+            钢环检测结果监控数据源（线程安全）。
+            写入端：
+              扩膜站 —— CCD1识别料盘规格后 SetRingLayout(行,列,空跑)（生产行列取自CCD1，空跑用参数3×4）；每取出一颗 CCD2拍照后 TakeOut(环内料位号)
+              IR检测1/2 —— 摆臂放料完成接料时 AssignNextPos(ProductData)，把全局料位序号写入产品
+              AR检测1/2 —— 最终判定（CCD6 AND CCD3结果）后 OnResult(序号,结果,NG原因)
+            读取端：
+              窗体 Form_RingMonitor 轮询 GetSnapshot()，连续30片/累计50片NG时弹报警，确认后复位滚动计数。
+            参数（App.config appSettings，可现场修改）：
+              RingRows / RingCols —— 生产料盘默认行×列（CCD1未反馈时使用，默认 17×19=323）
+              DryRunRows / DryRunCols —— 空跑规格（默认 3×4）
+              RingImagePath —— 钢环NG/OK图片保存目录（默认 exe目录\RingImages）
+              RingImageSave —— 是否保存钢环图片（true/false，默认 true）
+            图片保存：每做完一个钢环（换环时或环内全部穴位判定完成），自动把该钢环料盘图保存为 PNG
+              （含 NG 命名为 RingN_时间_NGx片.png，全部 OK 命名为 RingN_时间_OK.png）。
+            </summary>
+        </member>
+        <member name="T:Autoframe.RingMonitor.ResultRecord">
+            <summary>单片结果明细（最新在列表末尾，窗体倒序显示）</summary>
+        </member>
+        <member name="T:Autoframe.RingMonitor.Snapshot">
+            <summary>料盘快照（窗体轮询用）</summary>
+        </member>
+        <member name="T:Autoframe.RingMonitor.RingImageData">
+            <summary>钢环图片数据（锁内收集、锁外绘制保存，避免阻塞产线写入端）</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.SetRingLayout(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>设置当前环料盘规格（CCD1反馈；空跑时3行4列；参数可设默认）。换环时自动保存上一环图片</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.TakeOut(System.Int32)">
+            <summary>扩膜站取出一颗料（n拍照次数++后调用），环内料位号按蛇形顺序</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.AssignNextPos(Autoframe.ProductData)">
+            <summary>IR站接料时调用：把全局料位序号写入产品，供AR最终判定回写</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.OnResult(System.Int32,System.Boolean,System.String)">
+            <summary>AR站最终判定后调用：写入一颗料的综合结果（IR∩AR，任一NG即NG）。
+            当前环全部穴位判定完成时，自动保存该钢环图片</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.AcknowledgeAlarm">
+            <summary>操作员确认报警：复位对应滚动计数，不再重复弹窗</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.ResetAll">
+            <summary>手动重置全部统计与当前环</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.GetSnapshot">
+            <summary>窗体轮询快照</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.CollectCurrentRing">
+            <summary>锁内收集当前环图片数据</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.SaveCurrentRingImage">
+            <summary>把d当前钢环料盘图保存为 PNG（空跑/无数据环不保存；失败不影响产线）</summary>
+        </member>
+        <member name="M:Autoframe.RingMonitor.SaveRingImage(Autoframe.RingMonitor.RingImageData)">
+            <summary>把钢环料盘图保存为 PNG（空跑/无数据环不保存；失败不影响产线）</summary>
+        </member>
+        <member name="T:Autoframe.MesClient">
+            <summary>MES 数据采集接口客户端（AOI -> MES），HTTP+JSON，地址可配置，调用失败不影响设备生产</summary>
+        </member>
+        <member name="E:Autoframe.MesClient.Log">
+            <summary>日志回调（线程安全由调用方处理）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.PostJson(System.String,System.String,System.Int32)">
+            <summary>发送 POST JSON 请求，返回原始响应文本；异常抛出由调用方记录</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.Get(System.String,System.Int32)">
+            <summary>发送 GET 请求（V1.1 getwomodel 用），返回原始响应文本</summary>
+        </member>
+        <member name="T:Autoframe.MesClient.MesResult">
+            <summary>请求结果封装</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.GetWoModel(System.String)">
+            <summary>获取工单机种（getwomodel）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.SaveTestData(Autoframe.MesTestData)">
+            <summary>上传生产/质量数据（savetestdata）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.BuildFromSnapshot(Autoframe.RingMonitor.Snapshot)">
+            <summary>由钢环快照组包（供测试按钮/上传当前环/自动上传共用）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.UploadRing(Autoframe.RingMonitor.Snapshot)">
+            <summary>上传当前钢环（手动/自动共用），失败仅记日志不抛错（不影响生产）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.UploadRing(Autoframe.RingMonitor.RingImageData)">
+            <summary>上传上一环（换环自动上传用，RingImageData 无 NG 原因明细，按 NG 单类统计）</summary>
+        </member>
+        <member name="M:Autoframe.MesClient.BuildSample">
+            <summary>构造一份界面示例数据（测试接口连通性）</summary>
+        </member>
+        <member name="T:Autoframe.MesTestData">
+            <summary>savetestdata 请求体</summary>
+        </member>
+        <member name="T:Autoframe.MesDefect">
+            <summary>不良明细</summary>
+        </member>
+        <member name="P:Autoframe.AR检测1.Item(Autoframe.AR检测1.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.AR检测1.Item(Autoframe.AR检测1.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.AR检测1.Item(Autoframe.AR检测1.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.AR检测2.Item(Autoframe.AR检测2.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.AR检测2.Item(Autoframe.AR检测2.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.AR检测2.Item(Autoframe.AR检测2.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Autoframe.DataUpdata.CT_TimeStart">
+            <summary>
+            时间开始
+            </summary>
+        </member>
+        <member name="F:Autoframe.DataUpdata.CT_TimeEnd">
+            <summary>
+            时间结束
+            </summary>
+        </member>
+        <member name="M:Autoframe.DataUpdata.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.DataUpdata.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.DataUpdata.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.DataUpdata.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.DataUpdata.Item(Autoframe.DataUpdata.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.DataUpdata.Item(Autoframe.DataUpdata.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.DataUpdata.Item(Autoframe.DataUpdata.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.IR检测1.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.IR检测1.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.IR检测1.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.IR检测1.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.IR检测1.Item(Autoframe.IR检测1.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.IR检测1.Item(Autoframe.IR检测1.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.IR检测1.Item(Autoframe.IR检测1.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.IR检测2.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.IR检测2.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.IR检测2.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.IR检测2.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.IR检测2.Item(Autoframe.IR检测2.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.IR检测2.Item(Autoframe.IR检测2.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.NG下料站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.NG下料站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.NG下料站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.NG下料站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.NG料仓站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.NG料仓站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.NG料仓站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.NG料仓站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.NG覆膜站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="F:Autoframe.NG覆膜站.OutCliEnable">
+            <summary>
+            OutCliEnable
+            </summary>
+        </member>
+        <member name="T:Autoframe.NG覆膜站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.NG覆膜站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.NG覆膜站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK下料站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.OK下料站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.OK下料站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK下料站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK料仓站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.OK料仓站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.OK料仓站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK料仓站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK覆膜站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="F:Autoframe.OK覆膜站.OutCliEnable">
+            <summary>
+            OutCliEnable
+            </summary>
+        </member>
+        <member name="T:Autoframe.OK覆膜站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.OK覆膜站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.OK覆膜站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="F:Autoframe.StationRobot.ContinuousNG">
+            <summary>
+            连续NG数量
+            </summary>
+        </member>
+        <member name="F:Autoframe.StationRobot.NGReasons">
+            <summary>
+            连续NG原因
+            </summary>
+        </member>
+        <member name="M:Autoframe.StationRobot.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.StationRobot.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.StationRobot.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.StationRobot.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="F:Autoframe.StationRobot.CT_TimeStart">
+            <summary>
+            时间开始
+            </summary>
+        </member>
+        <member name="F:Autoframe.StationRobot.CT_TimeEnd">
+            <summary>
+            时间结束
+            </summary>
+        </member>
+        <member name="T:Autoframe.StationRobot.RobotPosItem">
+            <summary>
+            定义机械手点位数据格式
+            </summary>
+        </member>
+        <member name="M:Autoframe.StationRobot.CheckNGreason(System.String,System.String@)">
+            <summary>
+            相同NG原因判断，
+            </summary>
+            <param name="NGReasonStr">接收到的数据</param>
+            <param name="msg">返回的消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationRobot.ParseRobotPos(System.String)">
+            <summary>
+            解析机械手初始化收到的点位数据
+            </summary>
+            <param name="RobotRcvStr">接收到的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationRobot.overWriteRotPos(System.Collections.Generic.List{Autoframe.StationRobot.RobotPosItem},System.String)">
+            <summary>
+            写入标准点位到csv文件
+            </summary>
+            <param name="robotPos">点位信息</param>
+            <param name="csvPath">csv路径</param>
+        </member>
+        <member name="M:Autoframe.StationRobot.compareRobotPos(System.Collections.Generic.List{Autoframe.StationRobot.RobotPosItem},System.Collections.Generic.List{Autoframe.StationRobot.RobotPosItem})">
+            <summary>
+            比较机械手点位与保存的csv文件点位数据是否一致
+            </summary>
+            <param name="robotPos"></param>
+            <param name="csvPos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.StationRobot.GetCsvPos(System.String)">
+            <summary>
+            获取csv文件里面的机械手点位并保存到list里面
+            </summary>
+            <param name="csvPath">标准点位文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.StationRobot.Item(Autoframe.StationRobot.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.StationRobot.Item(Autoframe.StationRobot.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.StationRobot.Item(Autoframe.StationRobot.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.上料站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.上料站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.上料站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.上料站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.bConnectResult">
+            <summary>
+            相机连接结果
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.UCCD2Site">
+            <summary>
+            下一个拍照位U轴
+            </summary>
+        </member>
+        <member name="M:Autoframe.扩膜站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.扩膜站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.扩膜站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.扩膜站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.CCD2NG">
+            <summary>
+            CC2拍照失败次数
+            </summary>
+        </member>
+        <member name="T:Autoframe.扩膜站.Coord">
+            <summary>
+            定义物理坐标结构体
+            </summary>
+        </member>
+        <member name="T:Autoframe.扩膜站.Location">
+            <summary>
+            定义逻辑位置结构体 (行列信息)
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.Location.Row">
+            <summary>
+            行
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.Location.Col">
+            <summary>
+            列
+            </summary>
+        </member>
+        <member name="F:Autoframe.扩膜站.Location.Coord">
+            <summary>
+            对应的物理坐标
+            </summary>
+        </member>
+        <member name="M:Autoframe.扩膜站.GetCoordinate(System.Int32,System.Int32)">
+            <summary>
+            根据行号、列号计算物理坐标 (X, Y)
+            </summary>
+            <param name="row">行</param>
+            <param name="col">列</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.扩膜站.GetLocationByIndex(System.Int32)">
+            <summary>
+            根据物料序号(Index)获取位置信息 (行, 列, 坐标)
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentOutOfRangeException"></exception>
+        </member>
+        <member name="M:Autoframe.扩膜站.计算料盘行列间距">
+            <summary>
+            计算料盘间距
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Autoframe.扩膜站.GenerateTraySnakePickList(Autoframe.扩膜站.PointD,Autoframe.扩膜站.PointD,Autoframe.扩膜站.PointD,System.Int32,System.Int32)">
+            <summary>
+            n行m列料盘 蛇形取料
+            行顺序：0→1→2→3…→n
+            偶数行(r%2==0)：列 0 → m 左→右
+            奇数行(r%2==1)：列 m → 0 右→左
+            </summary>
+            <param name="p00">第0行第0列</param>
+            <param name="p0End">第0行第m列</param>
+            <param name="pLastRow0">第n行第0列</param>
+            <param name="Row">行</param>
+            <param name="Col">列</param>
+            <returns>按取料先后顺序的坐标列表，总数量 n*m</returns>
+        </member>
+        <member name="P:Autoframe.扩膜站.Item(Autoframe.扩膜站.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.扩膜站.Item(Autoframe.扩膜站.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.扩膜站.Item(Autoframe.扩膜站.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.拉料站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.拉料站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="F:Autoframe.拉料站.POINT.待机位">
+            <summary>
+            等待取钢环的位置
+            </summary>
+        </member>
+        <member name="F:Autoframe.拉料站.POINT.等待位">
+            <summary>
+            等待从扩膜取钢环的位置
+            </summary>
+        </member>
+        <member name="T:Autoframe.拉料站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.拉料站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="M:Autoframe.摆臂站.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.摆臂站.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.摆臂站.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.摆臂站.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.摆臂站.Item(Autoframe.摆臂站.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.摆臂站.Item(Autoframe.摆臂站.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.摆臂站.Item(Autoframe.摆臂站.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.移载.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="F:Autoframe.移载.所标定的相机">
+            <summary>
+            4:CCD4   5:CCD5
+            </summary>
+        </member>
+        <member name="T:Autoframe.移载.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.移载.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.移载.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.移载.Item(Autoframe.移载.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.移载.Item(Autoframe.移载.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.移载.Item(Autoframe.移载.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.移载.TransferProduct(Autoframe.移载.NEST,Autoframe.ProductData@)">
+            <summary>
+            将源穴位的数据，传给目标穴位。传送完后源穴位清空。
+            </summary>
+            <param name="sourceNest">源穴位枚举</param>
+            <param name="tagetNest">目标穴位</param>
+        </member>
+        <member name="M:Autoframe.移载.TransferProduct(Autoframe.ProductData@,Autoframe.移载.NEST)">
+            <summary>
+            将源穴位的数据，传给目标穴位。传送完后源穴位清空。
+            </summary>
+            <param name="sourceNest">源穴位</param>
+            <param name="targetNest">目标穴位枚举</param>
+        </member>
+        <member name="M:Autoframe.翻转.#ctor(System.String)">
+            <summary>
+            构造函数，需要设置站位当前的IO输入，IO输出，轴方向及轴名称，以显示在手动页面方便操作
+            </summary>
+            <param name="strName"></param>
+        </member>
+        <member name="T:Autoframe.翻转.POINT">
+            <summary>
+            站位内的点位枚举
+            </summary>
+        </member>
+        <member name="T:Autoframe.翻转.NEST">
+            <summary>
+            产品穴位，与产品是一对一
+            </summary>
+        </member>
+        <member name="M:Autoframe.翻转.Preinit">
+            <summary>
+            初始化时设置站位安全状态，用来设备初始化时各站位之间相互卡站，
+            控制各站位先后动作顺序用，比如流水线组装，肯定需要组装的Z轴升
+            起后，流水线才能动作这种情况
+            </summary>
+        </member>
+        <member name="P:Autoframe.翻转.Item(Autoframe.翻转.POINT)">
+            <summary>
+            获取点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.翻转.Item(Autoframe.翻转.POINT,Autoframe.AXIS)">
+            <summary>
+            获取轴点位
+            </summary>
+            <param name="pt">点位枚举</param>
+            <param name="axis">轴枚举</param>
+            <returns></returns>
+        </member>
+        <member name="P:Autoframe.翻转.Item(Autoframe.翻转.NEST)">
+            <summary>
+            获取容器
+            </summary>
+            <param name="nIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.SystemInit.Init">
+             <summary>
+            系统初始化
+             </summary>
+        </member>
+        <member name="M:Autoframe.SystemInit.AddStation">
+             <summary>
+            添加站位，绑定系统IO
+             </summary>
+        </member>
+        <member name="M:Autoframe.SystemInit.IsAxisSafe(System.Int32,System.Nullable{System.Double},System.String@)">
+            <summary>
+            轴运动安全判定
+            </summary>
+            <param name="nAxis">轴号</param>
+            <param name="dbTargetPos">目标位置，回原、Jog会传null</param>
+            <param name="strMsg">危险操作信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.SystemInit.IsDoSafe(System.Int32,System.String@)">
+            <summary>
+            DO操作安全判定
+            </summary>
+            <param name="nIndex">DO序号</param>
+            <param name="strMsg">危险操作信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Autoframe.SystemInit.InitRecipe">
+            <summary>
+            设置生产配方，能快按生产场景切参数
+            </summary>
+        </member>
+        <member name="M:Autoframe.SystemInit.InitHomeMode">
+            <summary>
+            自定义回原模式
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.AddPage(System.Windows.Forms.Form[])">
+            <summary>
+            添加自定义TabPage
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.SetCustomPanel(System.Object[],System.Object[])">
+            <summary>
+            添加自定义面板
+            </summary>
+            <param name="arrayDI"></param>
+            <param name="arrayDO"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.SetCustomPanel(System.Windows.Forms.UserControl)">
+            <summary>
+            添加自定义面板
+            </summary>
+            <param name="uc">自定义</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.InitProductDataGridViewHead">
+            <summary>
+            初始化界面生产数据表
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Auto.ShowCount">
+            <summary>
+            界面最大显示100行物料数据
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.OnShowProductData(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            生产数据展示
+            </summary>
+            <param name="dicProduct"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.UpdateProductCounter">
+            <summary>
+            更新计数器显示
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.BackupPointXmlAndCleanOld">
+            <summary>
+            程序启动自动备份Point.xml，自动清理7天以上备份文件
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Auto.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto_CustomPanel.OnRegBitChanged(System.Int32,System.Boolean)">
+            <summary>寄存器位变化事件回调：只处理 IR载具清料 这一位</summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Auto_CustomPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto_CustomPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Auto_CustomPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Autoframe.UI.Form_Main">
+            <summary>
+            主界面
+            </summary>
+        </member>
+        <member name="P:Autoframe.UI.Form_Main.__blacklist">
+            <summary>
+            翻译黑名单
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Main.m_dicForm">
+            <summary>
+            界面字典
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Main.m_currentForm">
+            <summary>
+            当前界面
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Main.m_currentButton">
+            <summary>
+            当前界面按钮
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Main.SoftwareVersion">
+            <summary>
+            软件版本
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.SetPermission">
+            <summary>
+            设置Control权限
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.RoundButton_Start_Click(System.Object,System.EventArgs)">
+            <summary>
+            开始自动流程,如果是暂停则恢复运行
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.RoundButton_Pause_Click(System.Object,System.EventArgs)">
+            <summary>
+            暂停
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.RoundButton_Stop_Click(System.Object,System.EventArgs)">
+            <summary>
+            结束自动流程
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.Form_Main_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            关闭程序,清空报警类数据
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">附带数据的对象</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.SwitchWnd(AF.Common.UI.RoundButton)">
+            <summary>
+            根据权限来登录点击的界面
+            </summary>
+            <param name="btn"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Autoframe.UI.Form_Main.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Main.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Autoframe.UI.Form_MesTest2">
+            <summary>MES 接口测试界面：接口地址 / Request / Response，每次测试保存 txt 到 D:\exe\Mes\yyyyMMdd.txt</summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_MesTest2.SaveDir">
+            <summary>测试记录保存目录（固定）</summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_MesTest2.Get(System.String,System.Int32)">
+            <summary>发送 GET 请求（V1.1 getwomodel 用），返回原始响应文本</summary>
+        </member>
+        <member name="T:Autoframe.UI.Form_RingMonitor">
+            <summary>
+            钢环检测结果实时监控窗体。
+            显示当前钢环（CCD1反馈的行×列，空跑固定3×4）每颗料的综合检测结果（IR∩AR，任一NG即NG），
+            连续30片NG或累计50片NG时弹出报警，确认后复位滚动计数。
+            挂载方式：SystemInit.Init() 中 Form_Auto.AddPage(new Form_RingMonitor());
+            布局：上部统计区（topPanel/statPanel）与右侧明细栏（rightPanel）为 Designer 设计固定，
+                  可在 Visual Studio 窗体设计器中直接拖拽修改；料盘网格为自绘控件（大料盘自动压缩
+                  格子尽量全部显示，极端窗口/高DPI下格子保持最小30×26像素，超出部分由容器滚动条查看）。
+            参数：钢环料盘规格（默认17行×19列=323片，空跑3×4）在 App.config 的 appSettings 中设置。
+            图片：每完成一个钢环，自动把该钢环 NG/OK 料盘图保存到 exe 目录\RingImages（可配置）。
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_RingMonitor.ResizeGridCells">
+            <summary>按容器尺寸重算自绘网格大小：格子尽量撑满且不超过容器（避免多余滚动条），
+            窗口过小保持最小格30×26时允许出现滚动条查看全部穴位</summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_RingMonitor.components">
+            <summary>
+            设计器支持所需的变量。
+            上部统计区（topPanel/statPanel）与右侧明细栏（rightPanel）均为 Designer 设计固定布局，
+            在 Visual Studio 窗体设计器中可直接拖拽修改（名称、位置、颜色、字体等）。
+            注意：gridHost 为 Dock=Fill 的料盘容器，必须保持在 Controls.Add 顺序的最后（Dock 布局按 z-order 从底到顶处理）。
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_RingMonitor.Dispose(System.Boolean)">
+            <summary>清理所有正在使用的资源</summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_RingMonitor.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Autoframe.UI.Form_MesTest">
+            <summary>MES 数据采集接口：上传与测试界面（地址可配置、手动切换机种、调用日志）</summary>
+        </member>
+        <member name="F:Autoframe.UI.Form_Test.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Autoframe.UI.Form_Test.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Autoframe.UI.Form_Test.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.MqttClient_Connected(System.Object,System.EventArgs)">
+            <summary>
+            服务器连接成功
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.MqttClient_Disconnected(System.Object,System.EventArgs)">
+            <summary>
+            断开服务器连接
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.MqttClient_ApplicationMessageReceived(System.Object,MQTTnet.Client.MqttApplicationMessageReceivedEventArgs)">
+            <summary>
+            接收到消息
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.BtnSubscribe_ClickAsync(System.Object,System.EventArgs)">
+            <summary>
+            订阅消息
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.BtnPublish_Click(System.Object,System.EventArgs)">
+            <summary>
+            发布主题
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.DecryptAes(System.String,System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="encryptedData"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.button17_Click(System.Object,System.EventArgs)">
+            <summary>
+            4.7机台流程卡号校验测试
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.button20_Click(System.Object,System.EventArgs)">
+            <summary>
+            补报工数据查询
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.dataGridView1_RowStateChanged(System.Object,System.Windows.Forms.DataGridViewRowStateChangedEventArgs)">
+            <summary>
+            自动行号显示
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.LoadingDate(System.String)">
+            <summary>
+            加载报工数据
+            </summary>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.dataGridView2_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            单元格被选中事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.button21_Click(System.Object,System.EventArgs)">
+            <summary>
+            单片产品补报工
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.button22_Click(System.Object,System.EventArgs)">
+            <summary>
+             所有报工失败物料补报工
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.button27_Click(System.Object,System.EventArgs)">
+            <summary>
+            二维码补传
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:AutoFrame.Form_MqttClient.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:AutoFrame.Form_MqttClient.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:AutoFrame.Form_MQTT_Control.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AutoFrame.Form_MQTT_Control.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AutoFrame.Form_MQTT_Control.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:AutoFrame.MQTT.ConStatue">
+            <summary>
+            服务是否连接
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.ShowLogChangeHander">
+            <summary>
+            显示Log改变委托
+            </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.SendLogChangeEvent">
+            <summary>
+            显示数据改变事件
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MqttChangeHander">
+            <summary>
+            MQTT改变委托
+            </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.Mqtt1ChangeEvent">
+             <summary>
+            MQTT改变事件
+             </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.Mqtt2ChangeEvent">
+             <summary>
+            报工成功改变事件
+             </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.Mqtt3ChangeEvent">
+             <summary>
+            报工失败改变事件
+             </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.Mqtt4ChangeEvent">
+             <summary>
+            报工未响应改变事件
+             </summary>
+        </member>
+        <member name="E:AutoFrame.MQTT.ReceiverLogChangeEvent">
+            <summary>
+            保存数据改变事件
+            </summary>
+        </member>
+        <member name="F:AutoFrame.MQTT.DicReceiver">
+            <summary>
+            接受到消息的集合
+            </summary>
+        </member>
+        <member name="F:AutoFrame.MQTT.msg_idlist">
+            <summary>
+            正在等待回复的消息集合
+            </summary>
+        </member>
+        <member name="F:AutoFrame.MQTT.Admin_DicReceiver">
+            <summary>
+            非操作者模式接受到消息的集合
+            </summary>
+        </member>
+        <member name="F:AutoFrame.MQTT.Admin_msg_idlist">
+            <summary>
+            非操作者模式正在等待回复的消息集合
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTT.ConnectMqttServerAsync1">
+            <summary>
+            连接服务器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.MqttClient_Connected">
+            <summary>
+            服务器连接成功
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.MqttClient_Disconnected">
+            <summary>
+            断开服务器连接
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.MqttClient_ApplicationMessageReceived">
+            <summary>
+            接收到消息
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveMQTTInteractionLog(AutoFrame.MQTT.WaitReceiver,System.Boolean)">
+            <summary>
+            保存Log数据
+            </summary>
+            <param name="wReceiver"></param>
+            <param name="Rulte"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveMQTTBufferlog(AutoFrame.MQTT.WaitReceiver)">
+            <summary>
+            报工内容缓存
+            </summary>
+            <param name="wReceiver"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveMQTTStemplog(AutoFrame.MQTT.WaitReceiver)">
+            <summary>
+            报工内容缓存
+            </summary>
+            <param name="wReceiver"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.ReSaveMQTTBufferlog(AutoFrame.MQTT.WaitReceiver,System.String)">
+            <summary>
+            补报工缓存内容
+            </summary>
+            <param name="wReceiver"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.Returnpass(System.String)">
+            <summary>
+            补传所有报工失败物料数据
+            </summary>
+            <param name="Lot_ID">工单号</param>
+        </member>
+        <member name="M:AutoFrame.MQTT.Returnpass(System.String,System.String)">
+            <summary>
+            3.8单片补报工
+            </summary>
+            <param name="Lot_ID">工单号</param>
+            <param name="SNcode">二维码</param>
+        </member>
+        <member name="M:AutoFrame.MQTT.AutoReturnpass(System.String)">
+            <summary>
+            自动补报TEMP数据
+            </summary>
+            <param name="Lot_ID"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.GetRetopic(System.String)">
+            <summary>
+            获取反馈主题
+            </summary>
+            <param name="topic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.Mqtt_Send(System.String,System.String)">
+            <summary>
+            发送数据
+            </summary>
+            <param name="topic"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.Mqtt_Subscribe(System.String)">
+            <summary>
+            订阅主题
+            </summary>
+            <param name="topic"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.Mqtt_Cancel(System.String)">
+            <summary>
+            取消订阅主题
+            </summary>
+            <param name="topic"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.ConvertDateTimeToInt(System.DateTime)">
+            <summary>  
+            将c# DateTime时间格式转换为13位时间戳格式  
+            </summary>  
+            <param name="time">时间</param>  
+            <returns>long</returns>  
+        </member>
+        <member name="M:AutoFrame.MQTT.RedAxisConfigSave">
+            <summary>
+            从配置文件读取轴配置参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.RedCamerConfigSave">
+            <summary>
+            从配置文件读取相机配置参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangParam(System.Object,System.Object,System.String@)">
+            <summary>
+            3.1设备参数上报
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangTechnology(System.String,System.String@)">
+            <summary>
+            加工工艺上报
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangEMapping(System.String,System.String@)">
+            <summary>
+            工具采集数据上报
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.Changworkorder(ToolEx.ProductData,System.String@)">
+            <summary>
+            自动贴片机设备报工
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.SelectMode(ToolEx.ProductData,System.String@)">
+            <summary>
+            3.15 非操作员模式数据上报
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangeState(System.String,System.String)">
+            <summary>
+            Rundata 3.3机况上报
+            </summary>
+            <param name="state">机台状态</param>
+            <param name="message"></param>
+            <param name="CreateFile"></param>
+            <param name="previous_state"></param>
+            <param name="StateChangeReason"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangeState">
+            <summary>
+            Rundata 机况上报
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangAOI(ToolEx.ProductInfo,System.String@)">
+            <summary>
+            AOI正常报工明细(25年新报工方式)
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.ReportAOIOKEnd(System.String,System.String,System.String,System.String@)">
+            <summary>
+            AOI OK料盘结工单报工
+            </summary>    
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.ReportAOINGEnd(System.String,System.String@)">
+            <summary>
+            AOI NG料盘结工单报工
+            </summary>    
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.ChangHttpPost(System.String,System.String@)">
+            <summary>
+            Post发送数据
+            </summary>      
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGGetAoiBadPiece(System.String@)">
+            <summary>
+            4.3 小件单片信息获取Get 小件单片信息获取
+            </summary>
+            <param name="strSN"></param>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGGetbyPiece(System.String,AutoFrame.MQTT.RootObject5@)">
+            <summary>
+            4.13 单片获取载具、卡号接口
+            </summary>
+            <param name="SNcode">中片二维码</param>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetAoiFileId(System.String,AutoFrame.MQTT.RootObject3@)">
+            <summary>
+            4.16 载具获取fileid
+            </summary>
+            <param name="strSN"></param>
+            <param name="strReturnMsg"></param>
+            <param name="martPartNo"></param>成品料号
+            <param name="pieceTraySN"></param>载具号
+            <param name="machineNo"></param>机台号
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveHiveLog(System.String,System.String)">
+            <summary>
+            保存信息到本地文档
+            </summary>
+            <param name="Message">需要保存的信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetPieceId(System.String,AutoFrame.MQTT.RootObject7@)">
+            <summary>
+            4.21 按单片获取单片信息
+            </summary>
+            <param name="strSN"></param>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetSteelSNId(System.String,System.String,AutoFrame.MQTT.RootObject2@)">
+            <summary>
+            4.7 后端流程卡
+            </summary>
+            <param name="runCardNo">后站流程卡，手动扫码获取</param>
+            <param name="martPartNo"></param>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetRunCardNo(System.String,AutoFrame.MQTT.RootObject2@)">
+            <summary>
+            Get 机台流程卡号校验
+            </summary>
+            <param name="strSN"></param>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetEQSoftVersion(AutoFrame.MQTT.RootObject4@)">
+            <summary>
+            4.22获取设备软件版本校验
+            </summary>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetMachineParamCheckBefore(System.Collections.Generic.List{System.String},AutoFrame.MQTT.RootObject6@)">
+            <summary>
+            4.26设备参数管控接口(加工前) 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpGetParamAvgCheck(System.String[],AutoFrame.MQTT.RootObject4@)">
+            <summary>
+            参数校验接口(用于平均值上抛)
+            </summary>
+            <param name="strReturnMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.PIECE_ID">
+            <summary>
+            PIECE_ID
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.PIECE_STATUS">
+             <summary>
+            小件状态0正常1报废2异常3黑名单
+             </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.RUN_CARD_NO">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.GRADE">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.LOCATION">
+            <summary>
+            单片位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.DEFECT_CODE_ID">
+            <summary>
+            缺陷代码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.Piece.DEFECT_OP_ID">
+            <summary>
+            站点名称
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTT.HttpPost(System.String,System.String@)">
+            <summary>
+            Post数据
+            </summary>
+            <param name="strData"></param>
+            <param name="strMsg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AutoFrame.MQTT.DESEncrypt(System.String,System.String)">
+            <summary>
+            ECB加密
+            </summary>
+            <param name="Data">加密字符串</param>
+            <param name="key">秘钥</param>
+        </member>
+        <member name="M:AutoFrame.MQTT.DESDecrypt(System.String,System.String)">
+            <summary>
+            ECB解密密
+            </summary>
+            <param name="Data"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataparam">
+            <summary>
+            设备参数上报
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.o_createTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.o_machineNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.o_workStation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.paramName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.paramSn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.paramValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataparam.DataItem.timeStamp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataTechnology">
+            <summary>
+            加工工艺
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.o_createTime">
+            <summary>
+            记录时间
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.o_machineNo">
+            <summary>
+            机台号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.o_workStation">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.paramName">
+            <summary>
+            参数名称
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.paramSn">
+            <summary>
+            参数序号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.paramValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTechnology.DataItem.timeStamp">
+            <summary>
+            参数值  
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataEMapping">
+            <summary>
+            工具采集
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.o_workStation">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.machineNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.o_machineNo">
+            <summary>
+            机台号 
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.w_vehicleNo">
+            <summary>
+            载具二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.runCardId">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.pieceId">
+            <summary>
+            单片二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.w_location">
+            <summary>
+            单片位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataEMapping.DataItem.curtime">
+            <summary>
+            生成日期 
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataworkorder">
+            <summary>
+            设备报工
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.o_workStation">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.w_createTime">
+            <summary>
+            生成日期
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.runCardId">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.w_vehicleNo">
+            <summary>
+            载具二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.pieceId">
+            <summary>
+            单片二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.w_location">
+            <summary>
+            单片位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.goodProductNumber">
+            <summary>
+            良品数量
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.defectCode">
+            <summary>
+            物料结果
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.o_operator">
+            <summary>
+            作业人员工号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.o_machineNo">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.coatingTrackingNumber">
+            <summary>
+            镀膜跟踪号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.p1RunCardId">
+            <summary>
+            p1流程卡
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.p3RunCardId">
+            <summary>
+            p3流程卡
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.w_judge">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.remark1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.remark2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.remark3">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.parentPieceId">
+            <summary>
+            父单片码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataworkorder.DataItem.fileId">
+            <summary>
+            FileID
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataTwe">
+            <summary>
+            Twe/AOI报工明细
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.LOCATION">
+            <summary>
+             载具位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.O_WORKSTATION">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.COLLECT_PALLET_SERIAL">
+            <summary>
+            回收托盘号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.MACHINE_NO">
+            <summary>
+            机台号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.O_OPERATOR">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.TEST_END_TIME">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FLOW_CARD_ID">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.VEHICLE_CODE">
+            <summary>
+            载具号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FILE_ID">
+            <summary>
+            单片ID绑定的托盘号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.POSIONT_COLUMN">
+            <summary>
+            小件Y位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.POSIONT_ROW">
+            <summary>
+            小件X位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.DOWN_MOUTH_NO">
+            <summary>
+            下料吸嘴编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.TEST_START_TIME">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FLOW_QR_CODE">
+            <summary>
+            小片二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FEED_SERIAL">
+            <summary>
+            供给顺序
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.COLLECT_BOX_CODE">
+            <summary>
+            回收托盘二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FEED_PALLET_QR_CODE">
+            <summary>
+            托盘二维码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.COLLECT_SERIAL">
+            <summary>
+            回收顺序
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.QR_GRADE">
+            <summary>
+            码的等级
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.PORRO_NO">
+            <summary>
+            porro编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.SCAN_NO">
+            <summary>
+            扫码器标号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.ItemList">
+            <summary>
+            未定义
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.DataItem1.MODEL_SIDE">
+            <summary>
+            测试面分类
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.DataItem1.TEST_ITEM_NAME">
+            <summary>
+            测试项目名称
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.DataItem1.TEST_ITEM_VALUE">
+            <summary>
+            测试项目值
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.DataItem1.TEST_ITEM_RESULT">
+            <summary>
+            测试结果
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.TEST_ITEM_FAULTY">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.TEST_ITEM_RESULT">
+            <summary>
+            物料结果
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.MOUTH_NO">
+            <summary>
+            吸嘴编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe.DataItem.FEED_PALLET_SERIAL">
+            <summary>
+            托盘号
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataTwe1">
+            <summary>
+            非操作员模式报工专用
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.LOCATION">
+            <summary>
+             载具位置
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.O_WORKSTATION">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.MACHINE_NO">
+            <summary>
+            机台号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.O_OPERATOR">
+            <summary>
+            操作员
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.RUN_CARD_ID">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataTwe1.DataItem1.W_VEHICLE_NO">
+            <summary>
+            回收托盘二维码
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataNotOpMode">
+            <summary>
+            非操作员模式数据上报   黑生虎
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineStateData">
+            <summary>
+            机况状态数据
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_workStation">
+            <summary>
+            工站编号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_machineNo">
+            <summary>
+            机台号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_machineState">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_stateName">
+            <summary>
+            状态名称
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_stateStartTime">
+            <summary>
+            状态运行开始时间
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_alertCode">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineStateData.DataItem.o_alertInfo">
+            <summary>
+            填写错误信息
+            </summary>
+        </member>
+        <member name="T:AutoFrame.MQTT.MachineDataPost">
+            <summary>
+            Post数据
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.workType">
+            <summary>
+            站点名称
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.actionType">
+            <summary>
+            工作面
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.machineNo">
+            <summary>
+            机台号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.Operator">
+             <summary>
+            操作员
+             </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.runcardId">
+            <summary>
+            流程卡号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.vehicleNo">
+            <summary>
+            治具号
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.location">
+            <summary>
+            穴位
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.MachineDataPost.DataItem.pieceId">
+            <summary>
+            单片码
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveStateCsv(System.Collections.Generic.List{AutoFrame.MQTT.MachineStateData.DataItem})">
+            <summary>
+            保存状态文件
+            </summary>
+            <param name=""></param>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveParameCsv(System.Collections.Generic.List{AutoFrame.MQTT.MachineDataparam.DataItem})">
+            <summary>
+            保存状态文件
+            </summary>
+            <param name=""></param>
+        </member>
+        <member name="T:AutoFrame.MQTT.MqttReceiver">
+            <summary>
+            Mqtt返回对象
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.WaitReceiver.Lot_ID">
+            <summary>
+            年-月-日-时
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.治具数组.subVehicleCode">
+            <summary>
+            辅助治具（入料）清洗蓝
+            </summary>
+        </member>
+        <member name="P:AutoFrame.MQTT.治具数组.vehicleCode">
+            <summary>
+            主治具（出料）钢环
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTT.aaa(System.String,System.String,System.String)">
+            <summary>
+            资产编号与机台号错误时使用
+            </summary>
+            <param name="LogID">流程卡号</param>
+            <param name="a">资产编号</param>
+            <param name="b">机台号</param>
+        </member>
+        <member name="M:AutoFrame.MQTT.SaveParamCsv(System.Collections.Generic.List{AutoFrame.MQTT.MachineDataparam.DataItem})">
+            <summary>
+            保存状态文件
+            </summary>
+            <param name=""></param>
+        </member>
+        <member name="T:AutoFrame.MQTTEx.MqttChangeHander">
+            <summary>
+            MQTT改变委托
+            </summary>
+        </member>
+        <member name="E:AutoFrame.MQTTEx.Mqtt3ChangeEvent">
+             <summary>
+            报工失败改变事件
+             </summary>
+        </member>
+        <member name="M:AutoFrame.MQTTEx.ThreadMonitor">
+            <summary>
+            线程监视器
+            </summary>
+        </member>
+        <member name="M:AutoFrame.MQTTEx.SaveMQTTInteractionLog(AutoFrame.MQTT.WaitReceiver,System.Boolean)">
+            <summary>
+            保存Log数据
+            </summary>
+            <param name="wReceiver"></param>
+            <param name="Rulte"></param>
+        </member>
+        <member name="M:AutoFrame.MQTTEx.SaveMQTTBufferlog(AutoFrame.MQTT.WaitReceiver)">
+            <summary>
+            报工内容缓存
+            </summary>
+            <param name="wReceiver"></param>
+        </member>
+        <member name="M:AutoFrame.MQTTEx.Admin_ChangAOI(ToolEx.ProductData,System.String@)">
+            <summary>
+            3.15 AOI非操作员模式下报工
+            </summary>
+            <param name="data1"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AutoFrame.MQTTEx.ConvertDateTimeToInt(System.DateTime)">
+            <summary>  
+            将c# DateTime时间格式转换为13位时间戳格式  
+            </summary>  
+            <param name="time">时间</param>  
+            <returns>long</returns>  
+        </member>
+        <member name="T:AutoFrame.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:AutoFrame.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:AutoFrame.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+    </members>
+</doc>

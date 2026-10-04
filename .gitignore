@@ -1,0 +1,27 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+*.cache
+*.vsidx
+*.vscode
+*.pdb
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+
+
+
+
+/AF.Card/.vs
+/Autoframe/.vs
+/AF.Station/.vs
+/AF.File/.vs
+/AF.Data/.vs
+/AF.Communicate/.vs
+/AF.Common/.vs
+
+/.vs
+/exe/db/language.db
+
+

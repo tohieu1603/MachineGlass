@@ -1,0 +1,2 @@
+
+http://172.31.53.167:3000/admin/autoframe_release
